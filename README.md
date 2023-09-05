@@ -23,6 +23,18 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 
 ### 🛠️ Improvements
 
+#### System
+- Updated effect touch sound effect
+
+#### Settings
+- Minor UI improvements
+    * new illustration for personalization preference
+    * new maintainer name highlighting style
+
+#### Volume Panel
+- Sound feedback when changing volume through tap/drag
+- Long-press per-app volume icon to launch active media app
+
 #### Memory Usage Optimizations
 - Optimized memory management
 - Optimized resource handling
@@ -30,8 +42,9 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 #### QS Header
 - Transition and performance improvements
 
-#### SystemUI Stability
+#### Stability
 - Optimized QS Panel reinflation to prevent possible systemui crashes
+- Remove unstable codec changes
 
 #### Bluetooth
 - Optimized bluetooth battery level scanning
