@@ -14,8 +14,8 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 ---
 
 ## 🔒 Security
-- **Android August ASB 2023**: Updated security patches.
-- **Safetynet Attestation**: Passes by default for enhanced app compatibility and trust.
+- **Android Security**: September 2023 security patches applied.
+- **Safetynet Attestation**: Passes by default, Play protect protect certification status is certified.
 
 ---
 
@@ -24,7 +24,10 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 ### 🛠️ Improvements
 
 #### System
-- Updated effect touch sound effect
+- Updated touch sound effect
+- Added more fonts to override
+- Updated Oneplus Sans font
+- Optimized system binaries for performance and size: _Co-author: Andrzej Perczak, Yi Kong, John Galt_
 
 #### Settings
 - Minor UI improvements
@@ -52,6 +55,7 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 ---
 
 ## 🐛 Fixed
+- **Fonts**: Fixed monospace overriden by sans-serif.
 - **System Memory Leaks**: Various leaks fixed for enhanced system stability.
 - **Crashes**: Resolved system ui crashes system manager game boost mode is enabled.
 - **Keyguard**: Fixed adaptive charging indication showing even though it's disabled.
@@ -70,3 +74,4 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 - **Bluetooth Battery Level Enhancements**: _Authors: jhonboy121, Pranav Vashi_
 - **Always finish the LightRevealScrim**: _Author: Chenyang Zhong_
 - **Allow limiting AOD & ambient display refresh rate**: _Author: Ido Ben-Hur_
+- **Navbar layouts settings**: _Author: Pranav Vashi_
