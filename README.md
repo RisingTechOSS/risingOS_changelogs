@@ -1,8 +1,8 @@
 # RisingOS Version 1.4 Final (Elysium) 🏞️
 
-Notes: Final release/version bump for android 13 
+**Note**: This is the final release/version bump for Android 13.
 
-Inspired by Elysium, the realm of perfect happiness and beauty, this final update brings fixes and improvements to enhance user experience with RisingOS.
+Inspired by Elysium, the realm of perfect happiness and beauty, this update brings a series of fixes and improvements to enhance the user experience on RisingOS.
 
 ## Table of Contents
 - [Security 🔒](#-security)
@@ -14,8 +14,8 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 ---
 
 ## 🔒 Security
-- **Android Security**: September 2023 security patches applied.
-- **Safetynet Attestation**: Passes by default, Play protect protect certification status is certified.
+- **Android Security**: Security patches for September 2023 have been applied.
+- **Safetynet Attestation**: Passes by default. Play Protect certification status is certified.
 
 ---
 
@@ -24,54 +24,58 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this final updat
 ### 🛠️ Improvements
 
 #### System
-- Updated touch sound effect
-- Added more fonts to override
-- Updated Oneplus Sans font
-- Optimized system binaries for performance and size: _Co-author: Andrzej Perczak, Yi Kong, John Galt_
+- Updated the touch sound effect.
+- Introduced more fonts for overriding.
+- Updated the Oneplus Sans font.
+- Optimized system binaries for performance and size. 
+  _Co-authors: Andrzej Perczak, Yi Kong, John Galt_
+- Weather updates moved to the background to reduce resource usage.
 
 #### Settings
-- Minor UI improvements
-    * new illustration for personalization preference
-    * new maintainer name highlighting style
+- Minor UI improvements:
+    * New illustration for personalization preference.
+    * New maintainer name highlighting style.
 
 #### Volume Panel
-- Sound feedback when changing volume through tap/drag
-- Long-press per-app volume icon to launch active media app
+- Sound feedback provided when changing volume via tap/drag.
+- Long-press the per-app volume icon to launch the active media app.
 
 #### Memory Usage Optimizations
-- Optimized memory management
-- Optimized resource handling
-
-#### QS Header
-- Transition and performance improvements
+- Improved memory management.
+- Enhanced resource handling.
 
 #### Stability
-- Optimized QS Panel reinflation to prevent possible systemui crashes
-- Remove unstable codec changes
+- Optimized QS Panel reinflation to prevent potential System UI crashes.
+- Removed unstable codec changes.
 
 #### Bluetooth
-- Optimized bluetooth battery level scanning
+- Optimized Bluetooth battery level scanning.
 
 ---
 
-## 🐛 Fixed
-- **Fonts**: Fixed monospace overriden by sans-serif.
-- **System Memory Leaks**: Various leaks fixed for enhanced system stability.
-- **Crashes**: Resolved system ui crashes system manager game boost mode is enabled.
-- **Keyguard**: Fixed adaptive charging indication showing even though it's disabled.
-- **Display**: Fixed possible flickering caused by null surfacecontrol.
-- **Authentication**: Fixed getting authentication ripple scrim getting stucked.
-- **User Switching**: Fixed random crash when switching user.
-- **Brightness Slider**: Fixed QS Panel brightness slider vibrating to automatic brightness adjustments.
-- **Ortus Launcher**: Fixed recents apps touch issues and gestures getting stuck.
+## 🐛 Fixes
+- **Fonts**: Resolved an issue where monospace was overridden by sans-serif.
+- **System Memory Leaks**: Addressed various memory leaks to enhance system stability.
+- **Crashes**: 
+    - Resolved System UI crashes when the system manager game boost mode is active.
+    - Fixed Android service library crash.
+    - Resolved Google services crashes.
+    - Resolve BaseBundle crashes
+- **Keyguard**: Fixed the issue of adaptive charging indication appearing even when disabled.
+- **Display**: Rectified possible flickering caused by a null surface control.
+- **Authentication**: Fixed the authentication ripple scrim getting stuck.
+- **User Switching**: Resolved a random crash occurring during user switching.
+- **Brightness Slider**: Fixed the QS Panel brightness slider vibrating due to automatic brightness adjustments.
+- **Ortus Launcher**: Rectified issues with recent apps touch and gestures getting stuck.
+- **Firewall**: Fixed the firewall's internet/data access switch malfunction.
 
 ---
 
 ## 🍒 Cherry-picked Features
-- **Improve Blur Handling**: _Author: nift4_
-- **Fix Quickswitch with Gesture Pill Disabled**: _Author: nift4_
-- **fix missing rotate suggestion in 2 button nav mode**: _Author: nift4_
+- **Improved Blur Handling**: _Author: nift4_
+- **Fixed Quickswitch with Gesture Pill Disabled**: _Author: nift4_
+- **Rectified Missing Rotate Suggestion in 2-Button Nav Mode**: _Author: nift4_
 - **Bluetooth Battery Level Enhancements**: _Authors: jhonboy121, Pranav Vashi_
-- **Always finish the LightRevealScrim**: _Author: Chenyang Zhong_
-- **Allow limiting AOD & ambient display refresh rate**: _Author: Ido Ben-Hur_
-- **Navbar layouts settings**: _Author: Pranav Vashi_
+- **Ensured Completion of the LightRevealScrim**: _Author: Chenyang Zhong_
+- **Allowed Limiting AOD & Ambient Display Refresh Rate**: _Author: Ido Ben-Hur_
+- **Navbar Layouts Settings**: _Author: Pranav Vashi_
