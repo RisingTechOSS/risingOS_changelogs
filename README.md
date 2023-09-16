@@ -30,6 +30,11 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this update brin
 - Optimized system binaries for performance and size. 
   _Co-authors: Andrzej Perczak, Yi Kong, John Galt_
 - Weather updates moved to the background to reduce resource usage.
+- Improved multitasking performance
+- Improved multi-window/freeform support
+    - improved freeform handling
+    - added freeform shorcut when long pressing app icon from drawer/hotseat
+- Added keylayout for DualSense Edge/Xbox wireless controller
 
 #### Settings
 - Minor UI improvements:
@@ -67,7 +72,11 @@ Inspired by Elysium, the realm of perfect happiness and beauty, this update brin
 - **User Switching**: Resolved a random crash occurring during user switching.
 - **Brightness Slider**: Fixed the QS Panel brightness slider vibrating due to automatic brightness adjustments.
 - **Ortus Launcher**: Rectified issues with recent apps touch and gestures getting stuck.
+- **Adaptive Charging**: Fixed adaptive charging activating on daytime.
 - **Firewall**: Fixed the firewall's internet/data access switch malfunction.
+- **Desktop Mode**: Fixed Desktop mode pc settings crash.
+- **Desktop Mode**: Fixed app drawer search bar layout.
+- **Security Patch**: September build version is now reported to most apps e.g safetynet apps etc (without breaking cts).
 
 ---
 
