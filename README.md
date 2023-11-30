@@ -21,7 +21,7 @@
 - Introducing Island Notification Feature, revamped reticker with ios' dynamic island animations and style (mostly written by the team, using forward ported reticker as reference and base). Co-authors: Dil3mm4 (author of reticker feature), Pranav Vashi and someone5678 (fixes and improvements)
 - Introducing Builtin QuickSwitch Feature, switch from Pixel launcher to Launcher3 vice versa
 - Enabled Split shade notification quicksettings when device is on landscape mode
-
+- Inmplemented Volume Styles (added volume styles created by DrDisagree)
 ---
 
 #### ⚙️ System
@@ -31,4 +31,5 @@
 - Improved Freeform enhancements from Sony, following most OEM's multiwindow behaviour (Courtesy of nift4 for freeform enhancements and fixes)
 - Added support for Inverted QR code scanning (from Sony)
 - Introducing risingOS strict standby policy (based from LibXZR's strict standby policy,  made conservative but multi-tasking friendly) Co-authors: Adithya R(Improvements/fixes), LibXZR (Author of Strict standby policy)
+- Added Face Unlock Support (By Team Paranoid Android) with minor risingOS addidtions - face unlock animation icon/text indication (courtesy of Pixel experience face unlock changes)
 ---
