@@ -6,16 +6,18 @@
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for January 2023.
+- **Android Security:** Stay protected with up-to-date security patches for February 2024.
 - **Safetynet Attestation:** Play Protect certified for enhanced safety.
 
 ---
 
-## 💬 Highlights
-- **General:** Built on LineageOS, RisingOS 2.0 introduces RisingUI 2.0, enhancing the AOSP UI experience.
-- **Audio Effects:** Introducing the RisingOS Audio Effects engine for an improved audio experience with bass boost, soft reverb, and dynamic mode.
-- **Face Unlock:** Paranoid Sense Face Unlock Support by Team Paranoid Android
-- **LockScreen:** Introducing Lockscreen Styles and IOS blur gradient media art filter.
+## 💬 Highlights (RisingOS Additions)
+- **Ai Assistant Shortcut:** Added support ChatGpt AI voice assistant lockscreen shortcut
+- **Audio Effects [BETA]:** Introducing the RisingOS Audio Effects engine with Dynamic Frequency Responsive algorithm, comes with bass boost, soft reverb, and dynamic mode.
+- **Face Unlock:** Paranoid Sense Face Unlock Support by Team Paranoid Android with a few modifications from the risingOS team
+- **LockScreen Album Art Filter:** Introducing IOS blur gradient media art filter.
+- **LockScreen Clock Styles:** Engineered by the AfterLife Project, rewritten optimized with fixes by the risingOS team
+- **LockScreen Widgets [BETA]:** Introducing Lockscreen widgets, inspired from nothingOS
 - **Memory Optimization:** New memory framework brings optimized freezing, memory pressure handling, and memory compaction for improved multitasking.
 - **Notifications:** New Island Notification Feature and a redesigned reticker based on IOS' dynamic island for a fresher look user experience.
 - **Performance Boost:** Experience enhanced performance with the introduction of the boost framework.
@@ -27,8 +29,16 @@
 - **Scheduling:** Improved task management with the FIFO scheduling policy ([Reference](https://source.android.com/docs/core/tests/debug/jank_jitter)).
 - **Standby Policy:** Custom strict standby policy, co-authored by Adithya R and LibXZR (Original author of strict standby policy), balancing conservativeness with multitasking.
 - **System Audio:** Revamped audio UI with new alarms, feedback tones, and exclusive RisingOS 2.0 ringtones.
-- **Wallpapers:** New wallpaper packs including Pixel Superfans, Minerals, and exclusive RisingOS 2.0 wallpapers by notayan99 and Qirkl.
+- **UDFPS Animations:** Reworked UDFPS Animations
+- **UserInterface:** Introducing RisingUI 2.0 - New user experience and look for Android 14
+- **Wallpapers:** New wallpaper packs including Pixel Superfans, Minerals, and exclusive RisingOS 2.0 wallpapers by notayan99 and Qirkly.
+- **Wallpapers Colors:** Introducing Force Dark wallpaper text color 
 
+---
+
+## 💬 Highlights (Cherry-Picked Additions)
+- **AppLock:** Added Applock feature back by jhonboy121
+- **Phone Link:** Added Support for Phone Link Feature
 ---
 
 ## 🙌 All Features currently shipped with respective Authors and Contributors
@@ -41,7 +51,10 @@ Your understanding and appreciation for the creativity and efforts of the origin
 ---
 - **LineageOS features and customizations:** LineageOS Project
 - **Adaptive Playback:** Jyotiraditya, Stylogey
+- **Ai Assistant Shortcut:** Credits to Mishaal Rahman
+- **Always on Display schedule:** idoybh
 - **Always on Display on Charge:** darkobas, jhonboy121, idoybh, Pranav Vashi (Fixes and Improvements)
+- **AppLock:** jhonboy121, Pranav Vashi (Forward Port and fixes)
 - **Brightness Slider Customizations:** Alberto97, Michael Bestas, Luca Stefani, Alexander Westphal, qjohn, maxwen, Pranav Vashi, idoybh, timjosten
 - **Battery Bar:** cphelps76, Pranav Vashi (Fixes)
 - **Battery Customizations:** althafvly, Pranav Vashi, Myself5, TheStrix, ezio84, 703joko, R15Hi, spezi77, StarkDroid, Dr Disagree
@@ -54,15 +67,18 @@ Your understanding and appreciation for the creativity and efforts of the origin
 - **Less Boring Headsup:** ezio84, Rushab Shah, Pranav Vashi
 - **Music Ticker:** ezio84, Pranav Vashi (Forward Port)
 - **Noisy Notifications:** ezio84
+- **Lockscreen Charging Info:** beanstown106
 - **LockScreen Clocks:** Afterlife Project (703joko)
 - **Lockscreen Media Art:** beanstown106
 - **Monet Customizations:** idoybh, Pranav Vashi
 - **Notification Count:** Steve Kondik, jhonboy121, Pranav Vashi (Fixes)
+- **Omnijaws Weather Client:** Maxwen, Pranav Vashi
+- **QuickSettings Tile Animations:** Nico60, PacMM79
 - **QuickSettings Header Image:** Idc/ancientOS
 - **QuickSettings Styles and Customizations:** IacobIonut01, SamarV-121, Tim Zimmermann, cjh1249131356, timjosten, StarkDroid, Dr Disagree, elluzion, rdx420
-- **QuickSettings Widgets:** AfterLife Project (703joko, Mr- 0, muthafuka X)
 - **Screen Off Animations:** Kshitij Gupta, Pranav Vashi (Forward Port),
 - **Shape and Icon Pack Themes:** SagarMakhar, Pranav Vashi (Improvements), Dr Disagree (Iconify Icon Packs)
+- **Status Bar Clock Customizations:** Luca Stefani, Hendrik Hagendorn, LuK1337, Michael W, Volodymyr Zhdanov, kxxt, bellegarde-c, Pranav Vashi
 - **Status Bar Clock Chip:** StarkDroid
 - **Status Bar Logo:** Pranav Vashi, Shevt, LorDClockaN, varund7726
 - **System Haptics:** Blaster4385, Pranav Vashi, someone5678
@@ -70,6 +86,7 @@ Your understanding and appreciation for the creativity and efforts of the origin
 - **Screenshot Sound:** Ashwin R C
 - **Swipe to Screenshot:** ghbhaha, jhenrique09
 - **Pulse Visualizer:** bigrushdog (Randall), Pranav Vashi (Forward Port)
+- **UDFPS Animations:** SagarMakhar, Dhina17, AnnierinBliss, Pranav Vashi
 - **Volume Steps:** Meticulus
 - **Volume Styles:** Dr Disagree (iconify volume style packs).
 
