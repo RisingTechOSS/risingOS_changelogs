@@ -1,44 +1,116 @@
-# ☀️ RisingOS Version 2.0 (Heraclea)
+# 🐦‍🔥 RisingOS Version 2.1 (Icarus)
 
 ## 🏛️ Introduction
-- Taking inspiration from the historical city of Heraclea and paying homage to the mythical hero Heracles. A city entrenched in ancient wonders and myths, where history whispers through time..
+- Inspired by the daring spirit of Icarus from Greek mythology, this release embodies ambition and adventure. Just as Icarus sought to reach the unreachable, this update signifies our efforts towards exciting new horizons. 
 
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for February 2024.
-- **Safetynet Attestation:** Play Protect certified for enhanced safety.
+- **Android Security:** Stay protected with up-to-date security patches for April 2024.
+---
+
+## 💬 Highlights (RisingOS Exclusive Additions)
+
+For previous changelogs from our initial beta release, please refer to [Beta Release Changelog](https://github.com/RisingTechOSS/risingOS_changelogs/tree/32f1bc41a6a0b7c263b157c68dacd08ce4e768c8).
 
 ---
 
-## 💬 Highlights (RisingOS Additions)
-- **Ai Assistant Shortcut:** Added support ChatGpt AI voice assistant lockscreen shortcut
-- **Audio Effects [BETA]:** Introducing the RisingOS Audio Effects engine with Dynamic Frequency Responsive algorithm, comes with bass boost, soft reverb, and dynamic mode.
-- **Face Unlock:** Paranoid Sense Face Unlock Support by Team Paranoid Android with a few modifications from the risingOS team
-- **LockScreen Album Art Filter:** Introducing IOS blur gradient media art filter.
-- **LockScreen Clock Styles:** Engineered by the AfterLife Project, rewritten optimized with fixes by the risingOS team
-- **LockScreen Widgets [BETA]:** Introducing Lockscreen widgets, inspired from nothingOS
-- **Memory Optimization:** New memory framework brings optimized freezing, memory pressure handling, and memory compaction for improved multitasking.
-- **Notifications:** New Island Notification Feature and a redesigned reticker based on IOS' dynamic island for a fresher look user experience.
-- **Performance Boost:** Experience enhanced performance with the introduction of the boost framework.
-- **Personalizations:** Revamped Personalizations section.
-- **Quick Settings:** Enabled Split shade notification quick settings for improved landscape mode UI.
-- **QuickSwitch:** Easily switch between Pixel Launcher, Launcher3, and Nothing Launcher with the built-in feature.
-- **QR Code Scanning:** Added support for Inverted QR code scanning 
-- **Runtime Improvements:** Latest Android runtime optimizations from AOSP master
-- **Scheduling:** Improved task management with the FIFO scheduling policy ([Reference](https://source.android.com/docs/core/tests/debug/jank_jitter)).
-- **Standby Policy:** Custom strict standby policy, co-authored by Adithya R and LibXZR (Original author of strict standby policy), balancing conservativeness with multitasking.
-- **System Audio:** Revamped audio UI with new alarms, feedback tones, and exclusive RisingOS 2.0 ringtones.
-- **UDFPS Animations:** Reworked UDFPS Animations
-- **UserInterface:** Introducing RisingUI 2.0 - New user experience and look for Android 14
-- **Wallpapers:** New wallpaper packs including Pixel Superfans, Minerals, and exclusive RisingOS 2.0 wallpapers by notayan99 and Qirkly.
-- **Wallpapers Colors:** Introducing Force Dark wallpaper text color 
+This update brings previous features from the beta releases with the following improvements:
+- **Framework:**
+  - Rebased on top of crDroid Android Project with risingOS additions on top (Big thanks and credits to crDroid Android and LineageOS projects for making this release possible)
+
+- **AOSP QPR2 Fixes:**
+  - Fixed screen recording crash.
+  - Fixed AOD now playing text alignment (when custom weather is enabled).
+  - Fixed QuickSettings header icons/text colors for light/dark theme modes.
+
+- **Adaptive Charging:**
+  - Introducing Adaptive Charging, which implements the system's power manager adaptive power management when enabled.
+  
+- **Audio Effects [BETA]:**
+  - Re-introducing Audio Effects as Adaptive Sound Engine with a new look and new adaptive sound modes.
+
+- **Boost Framework:**
+  - Reworked boosting framework, utilizing Code-Linaro's (Qualcomm) boosting framework, rewritten to be like Google Pixel's libperfmgr for general compatibility.
+  - Integrated boosting framework into Game Space.
+
+- **Island Notification:**
+  - Contacts/contents icons/pictures are now added to the island notification.
+
+- **LockScreen Clock Styles:**
+  - Added iOS widget to iOS Clock style; [Big thanks and credits to DrDisagree](https://github.com/Mahmud0808)
+  - Improved and resolved UI performance regressions.
+
+- **LockScreen Widgets [BETA]:**
+  - New swipe left/right media playback navigation support for big media widget
+  - Lockscreen widgets can now be added to the default clock style.
+
+- **Memory Optimization:**
+  - Improved memory management by porting Code-Linaro's Low-Memory-Killer Daemon tweaked and enhanced by [arter97](https://github.com/arter97/).
+
+- **Ortus Launcher:**
+  - Rebased on top of crDroid Home
+  - Added support for third party themed icon packs and forced monochrome icons.
+
+- **PiHooks:**
+  - Improved spoofing for CTS SafetyNet bypass and enablement of Google Pixel features such as Circle to Search, etc.
+
+- **Pixel Framework:**
+  - Introducing Ported Pixel features such as Smartspace, Ambient Music, Reverse Charging; [credits to Pixel Experience Project for the base framework](https://github.com/PixelExperience)
+
+- **Pocket Mode:**
+  - Added accidental phone wakeup handling mechanism.
+
+- **QS Header Image:**
+  - QS Header icons/text colors now changes to white when QS Header Image is enabled.
+
+- **RisingUI:**
+  - Added long press functionality to per-app volume button.
+  - Introducing nothing breathing UDPS icon style.
+  - Reworked lockscreen shortcuts design.
+  - New Revamped Volume Panel that adapts to different volume styles.
+
+- **Recovery:**
+  - New Revamped user interface.
+
+- **Settings:**
+  - Improved homepage avatar handling; homepage avatar now supports Google account if signed-in, then fallbacks to multi-user redirect if none.
+
+- **Settings Styles:**
+  - Introducing Settings Styles (RisingUI 2.0/1.0 aka Ayan Card UI).
+
+- **Shake Gestures:**
+  - Introducing new Shake Gestures feature, shake your device to do stuffs! 
+
+- **System Fonts:**
+  - Improved and optimized font override handling.
+
+- **WiFi Standard:**
+  - Fixed WiFi icon margin when WiFi standard is off/hidden.
 
 ---
 
 ## 💬 Highlights (Cherry-Picked Additions)
-- **AppLock:** Added Applock feature back by jhonboy121
-- **Phone Link:** Added Support for Phone Link Feature
+
+- **UI Styles:**
+  - Added user interface styles from Bootleggers by [eldainosor](https://github.com/eldainosor/).
+
+---
+
+## 👴 Deprecated Features (Removed Features)
+
+- **Columbus/Elmyra:**
+  - Removed due to deprecated dependencies and will be re-introduced once we learn how to regenerate the new java libraries.
+
+- **LockScreen Album Art Filter:**
+  - Deprecated as of [QPR2](https://github.com/crdroidandroid/android_frameworks_base/commit/8f922ec2cb649b99b07a90836584702c4f22e0a9).
+
+- **Nothing Launcher:**
+  - Deprecated as of QPR2 update
+
+- **RisingUI Beta QuickSettings:**
+  - Removed and will be re-introduced as Quicksettings Styles in upcoming releases.
+
 ---
 
 ## 🙌 All Features currently shipped with respective Authors and Contributors
