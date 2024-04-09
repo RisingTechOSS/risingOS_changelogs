@@ -23,6 +23,7 @@ This update brings previous features from the beta releases with the following i
   - Fixed screen recording crash.
   - Fixed AOD now playing text alignment (when custom weather is enabled).
   - Fixed QuickSettings header icons/text colors for light/dark theme modes.
+  - Fixed app drawer prediction row not showing themed icons
 
 - **Adaptive Charging:**
   - Introducing Adaptive Charging, which implements the system's power manager adaptive power management when enabled.
@@ -51,6 +52,9 @@ This update brings previous features from the beta releases with the following i
 - **Ortus Launcher:**
   - Rebased on top of crDroid Home
   - Added support for third party themed icon packs and forced monochrome icons.
+  - Improved themed/forced monochrome icons rendering and support
+  - Revamped recents overview panel 
+  - Freeform tasks launched from shortcut now stays on top even after launching a new app
 
 - **PiHooks:**
   - Improved spoofing for CTS SafetyNet bypass and enablement of Google Pixel features such as Circle to Search, etc.
@@ -94,6 +98,9 @@ This update brings previous features from the beta releases with the following i
 
 - **UI Styles:**
   - Added user interface styles from Bootleggers by [eldainosor](https://github.com/eldainosor/).
+
+- **New refresh rate selector page:**
+  - New refresh rate selector page by [Adithya R](https://github.com/ghostrider-reborn/).
 
 ---
 
