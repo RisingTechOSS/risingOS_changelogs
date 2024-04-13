@@ -19,21 +19,33 @@ This update brings previous features from the beta releases with the following i
 - **Framework:**
   - Rebased on top of crDroid Android Project with risingOS additions on top (Big thanks and credits to crDroid Android and LineageOS projects for making this release possible)
 
-- **AOSP QPR2 Fixes:**
-  - Fixed screen recording crash.
+- **AOSP QPR2 Framework:**
   - Fixed AOD now playing text alignment (when custom weather is enabled).
   - Fixed QuickSettings header icons/text colors for light/dark theme modes.
   - Fixed app drawer prediction row not showing themed icons
+  - Fixed Volume panel issues (04/13/24)
+  - Improved Freeform handling (for ortus launcher users) (04/13/24)
 
 - **Adaptive Charging:**
   - Introducing Adaptive Charging, which implements the system's power manager adaptive power management when enabled.
   
 - **Audio Effects [BETA]:**
   - Re-introducing Audio Effects as Adaptive Sound Engine with a new look and new adaptive sound modes.
+  - Attached audio effects to global output (04/13/24)
+
+- **Backgrounds:**
+  - Imported Nothing 2a wallpapers (04/13/24)
 
 - **Boost Framework:**
   - Reworked boosting framework, utilizing Code-Linaro's (Qualcomm) boosting framework, rewritten to be like Google Pixel's libperfmgr for general compatibility.
   - Integrated boosting framework into Game Space.
+
+- **Clock Styles:**
+  - Fixed custom clock alignment (04/13/24)
+ 
+- **Face Unlock:**
+  - Moved face unlock icon indication to top (04/13/24)
+  - Added face unlcok icon indication when entering pin/password (04/13/24)
 
 - **Island Notification:**
   - Contacts/contents icons/pictures are now added to the island notification.
@@ -45,6 +57,7 @@ This update brings previous features from the beta releases with the following i
 - **LockScreen Widgets [BETA]:**
   - New swipe left/right media playback navigation support for big media widget
   - Lockscreen widgets can now be added to the default clock style.
+  - Fixed and improve media widget playback ui (04/13/24)
 
 - **Memory Optimization:**
   - Improved memory management by porting Code-Linaro's Low-Memory-Killer Daemon tweaked and enhanced by [arter97](https://github.com/arter97/).
@@ -64,6 +77,7 @@ This update brings previous features from the beta releases with the following i
 
 - **Pocket Mode:**
   - Added accidental phone wakeup handling mechanism.
+  - Improved power button and call handling (04/13/24)
 
 - **QS Header Image:**
   - QS Header icons/text colors now changes to white when QS Header Image is enabled.
@@ -73,6 +87,8 @@ This update brings previous features from the beta releases with the following i
   - Introducing nothing breathing UDPS icon style.
   - Reworked lockscreen shortcuts design.
   - New Revamped Volume Panel that adapts to different volume styles.
+  - Drop legacy boot animation (04/13/24)
+  - Updated Seekbar design (04/13/24)
 
 - **Recovery:**
   - New Revamped user interface.
@@ -85,6 +101,7 @@ This update brings previous features from the beta releases with the following i
 
 - **Shake Gestures:**
   - Introducing new Shake Gestures feature, shake your device to do stuffs! 
+  - Added screenshot option (04/13/24)
 
 - **System Fonts:**
   - Improved and optimized font override handling.
