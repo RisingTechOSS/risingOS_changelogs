@@ -31,7 +31,8 @@ This update brings previous features from the beta releases with the following i
   
 - **Audio Effects [BETA]:**
   - Re-introducing Audio Effects as Adaptive Sound Engine with a new look and new adaptive sound modes.
-  - Attached audio effects to global output (04/13/24)
+  - Attached audio effects to global output [credits to Gabi Moreno](https://github.com/soygabimoreno) (04/13/24)
+  - Improved profiles tunings (04/16/24)
 
 - **Backgrounds:**
   - Imported Nothing 2a wallpapers (04/13/24)
@@ -46,6 +47,7 @@ This update brings previous features from the beta releases with the following i
 - **Face Unlock:**
   - Moved face unlock icon indication to top (04/13/24)
   - Added face unlcok icon indication when entering pin/password (04/13/24)
+  - Fixed face unlock icon inconsistencies (04/16/24)
 
 - **Island Notification:**
   - Contacts/contents icons/pictures are now added to the island notification.
@@ -68,9 +70,8 @@ This update brings previous features from the beta releases with the following i
   - Improved themed/forced monochrome icons rendering and support
   - Revamped recents overview panel 
   - Freeform tasks launched from shortcut now stays on top even after launching a new app
-
-- **PiHooks:**
-  - Improved spoofing for CTS SafetyNet bypass and enablement of Google Pixel features such as Circle to Search, etc.
+  - Updated to material design (04/16/24)
+  - Updated themed icons redirect to lawnicons release page (04/16/24)
 
 - **Pixel Framework:**
   - Introducing Ported Pixel features such as Smartspace, Ambient Music, Reverse Charging; [credits to Pixel Experience Project for the base framework](https://github.com/PixelExperience)
@@ -87,7 +88,7 @@ This update brings previous features from the beta releases with the following i
   - Introducing nothing breathing UDPS icon style.
   - Reworked lockscreen shortcuts design.
   - New Revamped Volume Panel that adapts to different volume styles.
-  - Drop legacy boot animation (04/13/24)
+  - Updated Bootanimation (04/13/24)
   - Updated Seekbar design (04/13/24)
 
 - **Recovery:**
@@ -95,6 +96,9 @@ This update brings previous features from the beta releases with the following i
 
 - **Settings:**
   - Improved homepage avatar handling; homepage avatar now supports Google account if signed-in, then fallbacks to multi-user redirect if none.
+  - Added navigate to multi-user settings on homepage avatar long click if google account is logged-in (04/16/24)
+  - Added Material design settings theme style (04/16/24)
+  - (BUILDING) allowed [overlaying](https://github.com/https://github.com/RisingOS-staging/android_packages_apps_Settings/commit/3299b2665fddc520ef5d71898eaeb51330383d28/). of minimum refresh rate for the new refresh rate picker 
 
 - **Settings Styles:**
   - Introducing Settings Styles (RisingUI 2.0/1.0 aka Ayan Card UI).
@@ -102,6 +106,7 @@ This update brings previous features from the beta releases with the following i
 - **Shake Gestures:**
   - Introducing new Shake Gestures feature, shake your device to do stuffs! 
   - Added screenshot option (04/13/24)
+  - Improved wakelock handling (04/16/24)
 
 - **System Fonts:**
   - Improved and optimized font override handling.
