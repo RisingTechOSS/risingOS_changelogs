@@ -25,6 +25,8 @@ This update brings previous features from the beta releases with the following i
   - Fixed app drawer prediction row not showing themed icons
   - Fixed Volume panel issues (04/13/24)
   - Improved Freeform handling (for ortus launcher users) (04/13/24)
+  - Reworked bluetooth dialog click/tap handling; click to toggle bluetooth, long press to open dialog (04/19/24)
+  - Applied workaround for volume ui delays when adjusting volume through volume keys (04/19/24)
 
 - **Adaptive Charging:**
   - Introducing Adaptive Charging, which implements the system's power manager adaptive power management when enabled.
@@ -49,6 +51,9 @@ This update brings previous features from the beta releases with the following i
   - Added face unlcok icon indication when entering pin/password (04/13/24)
   - Fixed face unlock icon inconsistencies (04/16/24)
 
+- **GameSpace:**
+  - Made FPS counter functional (04/19/24)
+
 - **Island Notification:**
   - Contacts/contents icons/pictures are now added to the island notification.
 
@@ -72,6 +77,7 @@ This update brings previous features from the beta releases with the following i
   - Freeform tasks launched from shortcut now stays on top even after launching a new app
   - Updated to material design (04/16/24)
   - Updated themed icons redirect to lawnicons release page (04/16/24)
+  - Prevented themed icons icon pack/s from showing on icon packs section (04/19/24)
 
 - **Pixel Framework:**
   - Introducing Ported Pixel features such as Smartspace, Ambient Music, Reverse Charging; [credits to Pixel Experience Project for the base framework](https://github.com/PixelExperience)
@@ -90,6 +96,8 @@ This update brings previous features from the beta releases with the following i
   - New Revamped Volume Panel that adapts to different volume styles.
   - Updated Bootanimation (04/13/24)
   - Updated Seekbar design (04/13/24)
+  - Introducing Volume panel sound haptics (04/19/24)
+  - Implemented glass blur effect for devices that uses skia render engine (04/19/24)
 
 - **Recovery:**
   - New Revamped user interface.
@@ -97,11 +105,13 @@ This update brings previous features from the beta releases with the following i
 - **Settings:**
   - Improved homepage avatar handling; homepage avatar now supports Google account if signed-in, then fallbacks to multi-user redirect if none.
   - Added navigate to multi-user settings on homepage avatar long click if google account is logged-in (04/16/24)
-  - Added Material design settings theme style (04/16/24)
+  - Fixed crash when changing monet styles (04/19/24)
+  - Fixed UI inconsistencies on some preference sections (04/19/24) 
   - (BUILDING) allowed [overlaying](https://github.com/https://github.com/RisingOS-staging/android_packages_apps_Settings/commit/3299b2665fddc520ef5d71898eaeb51330383d28/). of minimum refresh rate for the new refresh rate picker 
 
 - **Settings Styles:**
   - Introducing Settings Styles (RisingUI 2.0/1.0 aka Ayan Card UI).
+  - Added Material design settings theme style (04/16/24)
 
 - **Shake Gestures:**
   - Introducing new Shake Gestures feature, shake your device to do stuffs! 
