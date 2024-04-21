@@ -43,6 +43,7 @@ This update brings previous features from the beta releases with the following i
 - **Boost Framework:**
   - Reworked boosting framework, utilizing Code-Linaro's (Qualcomm) boosting framework, rewritten to be like Google Pixel's libperfmgr for general compatibility.
   - Integrated boosting framework into Game Space.
+  - Made power boosts more efficient (04/22/24)
 
 - **Clock Styles:**
   - Fixed custom clock alignment (04/13/24)
@@ -68,6 +69,9 @@ This update brings previous features from the beta releases with the following i
   - Fixed and improve media widget playback ui (04/13/24)
   - Added wifi, data, ringer toggle widgets (04/21/24)
   - Reduced small widgets padding (04/21/24)
+  - Added bluetooth toggle widget (04/22/24)
+  - Improved toggle widgets state listening (04/22/24)
+  - Fixed lockscreen widgets preview layout (04/22/24)
 
 - **Memory Optimization:**
   - Improved memory management by porting Code-Linaro's Low-Memory-Killer Daemon tweaked and enhanced by [arter97](https://github.com/arter97/).
