@@ -27,6 +27,7 @@ This update brings previous features from the beta releases with the following i
   - Improved Freeform handling (for ortus launcher users) (04/13/24)
   - Reworked bluetooth dialog click/tap handling; click to toggle bluetooth, long press to open dialog (04/19/24)
   - Applied workaround for volume ui delays when adjusting volume through volume keys (04/19/24)
+  - Fixed notification panel light/dark theme colors (04/21/24)
 
 - **Adaptive Charging:**
   - Introducing Adaptive Charging, which implements the system's power manager adaptive power management when enabled.
@@ -65,6 +66,8 @@ This update brings previous features from the beta releases with the following i
   - New swipe left/right media playback navigation support for big media widget
   - Lockscreen widgets can now be added to the default clock style.
   - Fixed and improve media widget playback ui (04/13/24)
+  - Added wifi, data, ringer toggle widgets (04/21/24)
+  - Reduced small widgets padding (04/21/24)
 
 - **Memory Optimization:**
   - Improved memory management by porting Code-Linaro's Low-Memory-Killer Daemon tweaked and enhanced by [arter97](https://github.com/arter97/).
@@ -120,6 +123,9 @@ This update brings previous features from the beta releases with the following i
 
 - **System Fonts:**
   - Improved and optimized font override handling.
+
+- **UDFPS icons:**
+  - Added more udfps icons contributed by: Davic Becker, Aditya Choudhury, AnierinB and xpirasians. (04/21/24)
 
 - **WiFi Standard:**
   - Fixed WiFi icon margin when WiFi standard is off/hidden.
