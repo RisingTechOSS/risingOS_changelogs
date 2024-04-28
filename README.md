@@ -1,7 +1,7 @@
-# 🐦‍🔥 RisingOS Version 2.1 (Icarus)
+# 🔥 RisingOS Version 2.2 (Ignis)
 
 ## 🏛️ Introduction
-- Inspired by the daring spirit of Icarus from Greek mythology, this release embodies ambition and adventure. Just as Icarus sought to reach the unreachable, this update signifies our efforts towards exciting new horizons. 
+- Embracing the blazing spirit of Ignis, derived from the Latin word for "fire," this release captures our burning passion for innovation.
 
 ---
 
