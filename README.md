@@ -30,6 +30,8 @@ This update brings previous features from the beta releases with the following i
   - Fixed notification panel light/dark theme colors (04/21/24)
   - Restored offload/direct audio track support (04/28/24)
   - Aligned A2DP and speaker volume (04/28/24)
+  - Optimized low memory killer daemon (05/06/24)
+  - Silenced spammy debugging messages that causes battery drain (05/06/24)
 
 - **Adaptive Charging:**
   - Introducing Adaptive Charging, which implements the system's power manager adaptive power management when enabled.
@@ -38,6 +40,7 @@ This update brings previous features from the beta releases with the following i
   - Re-introducing Audio Effects as Adaptive Sound Engine with a new look and new adaptive sound modes.
   - Attached audio effects to global output [credits to Gabi Moreno](https://github.com/soygabimoreno) (04/13/24)
   - Improved profiles tunings (04/16/24)
+  - Added Sound Engine QS tile and lockscreen widget toggle (05/06/24)
 
 - **Backgrounds:**
   - Imported Nothing 2a wallpapers (04/13/24)
@@ -50,7 +53,10 @@ This update brings previous features from the beta releases with the following i
 
 - **Clock Styles:**
   - Fixed custom clock alignment (04/13/24)
- 
+
+- **Depth Wallpaper:**
+  - Introducing Depth Wallpaper feature [credits to Siavash](https://github.com/siavash79) (05/06/24)
+
 - **Face Unlock:**
   - Moved face unlock icon indication to top (04/13/24)
   - Added face unlcok icon indication when entering pin/password (04/13/24)
@@ -77,6 +83,7 @@ This update brings previous features from the beta releases with the following i
   - Improved toggle widgets state listening (04/22/24)
   - Fixed lockscreen widgets preview layout (04/22/24)
   - Added expand on long press support to some widgets (04/28/24) 
+  - Fixed scaling on high dpi devices (05/06/24)
 
 - **Memory Optimization:**
   - Improved memory management by porting Code-Linaro's Low-Memory-Killer Daemon tweaked and enhanced by [arter97](https://github.com/arter97/).
@@ -90,6 +97,10 @@ This update brings previous features from the beta releases with the following i
   - Updated to material design (04/16/24)
   - Updated themed icons redirect to lawnicons release page (04/16/24)
   - Prevented themed icons icon pack/s from showing on icon packs section (04/19/24)
+  - Fixed Free memory calculation (05/06/24)
+  - Restored homescreen popup legacy order (05/06/24)
+  - Updated search bar colors (05/06/24)
+  - Added force kill option to system shortcut (05/06/24)
 
 - **Pixel Framework:**
   - Introducing Ported Pixel features such as Smartspace, Ambient Music, Reverse Charging; [credits to Pixel Experience Project for the base framework](https://github.com/PixelExperience)
@@ -124,6 +135,7 @@ This update brings previous features from the beta releases with the following i
   - Fixed crash when changing monet styles (04/19/24)
   - Fixed UI inconsistencies on some preference sections (04/19/24) 
   - (BUILDING) allowed [overlaying](https://github.com/https://github.com/RisingOS-staging/android_packages_apps_Settings/commit/3299b2665fddc520ef5d71898eaeb51330383d28/). of minimum refresh rate for the new refresh rate picker 
+  - Added Hidden SSID, Hotspot client manager and AP band controls changes authored by [cjybyjk](https://github.com/cjybyjk/), forward ported by risingOS team (05/06/24)
 
 - **Settings Styles:**
   - Introducing Settings Styles (RisingUI 2.0/1.0 aka Ayan Card UI).
@@ -141,8 +153,9 @@ This update brings previous features from the beta releases with the following i
 - **System Fonts:**
   - Improved and optimized font override handling.
 
-- **UDFPS icons:**
+- **UDFPS animations/icons:**
   - Added more udfps icons contributed by: Davic Becker, Aditya Choudhury, AnierinB and xpirasians. (04/21/24)
+  - Fixed an issue where UDFPS animation gets stucked after unlocking device (05/06/24)
 
 - **Volume Panel:**
   - Minor animations adjustments for slider and dialog panel (04/28/24)
