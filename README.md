@@ -54,6 +54,9 @@ This update brings previous features from the beta releases with the following i
 - **Clock Styles:**
   - Fixed custom clock alignment (04/13/24)
 
+- **Dark Theme:**
+  - Introducing True Amoled Dark mode (05/09/24)
+
 - **Depth Wallpaper:**
   - Introducing Depth Wallpaper feature [credits to Siavash](https://github.com/siavash79) (05/06/24)
 
@@ -65,6 +68,9 @@ This update brings previous features from the beta releases with the following i
 
 - **GameSpace:**
   - Made FPS counter functional (04/19/24)
+
+- **Healthy Charge:**
+  - Introducing Healthy Charge Service(05/09/24)
 
 - **Island Notification:**
   - Contacts/contents icons/pictures are now added to the island notification.
