@@ -21,9 +21,7 @@ This update brings previous features from the beta releases with the following i
 
 - **AOSP QPR2 Framework:**
   - Fixed AOD now playing text alignment (when custom weather is enabled).
-  - Fixed QuickSettings header icons/text colors for light/dark theme modes.
   - Fixed app drawer prediction row not showing themed icons
-  - Fixed Volume panel issues (04/13/24)
   - Improved Freeform handling (for ortus launcher users) (04/13/24)
   - Reworked bluetooth dialog click/tap handling; click to toggle bluetooth, long press to open dialog (04/19/24)
   - Applied workaround for volume ui delays when adjusting volume through volume keys (04/19/24)
@@ -32,6 +30,8 @@ This update brings previous features from the beta releases with the following i
   - Aligned A2DP and speaker volume (04/28/24)
   - Optimized low memory killer daemon (05/06/24)
   - Silenced spammy debugging messages that causes battery drain (05/06/24)
+  - Resolved system haptics vibration issues  (05/11/24)
+  - Resolved memory perf regressions and reduced max allowed cached processes (05/11/24)
 
 - **Adaptive Charging:**
   - Introducing Adaptive Charging, which implements the system's power manager adaptive power management when enabled.
@@ -116,12 +116,12 @@ This update brings previous features from the beta releases with the following i
   - Improved power button and call handling (04/13/24)
   - Introducing Always on Pocket mode (04/28/24)
 
-- **QS Header Image:**
-  - QS Header icons/text colors now changes to white when QS Header Image is enabled.
+- **QuickSettings:**
+  - Fixed QuickSettings header icons/text colors for light/dark theme modes.
+  - Fixed QuickSettings light theme color and background colors
 
 - **RisingUI:**
   - Added long press functionality to per-app volume button.
-  - Introducing nothing breathing UDPS icon style.
   - Reworked lockscreen shortcuts design.
   - New Revamped Volume Panel that adapts to different volume styles.
   - Updated Bootanimation (04/13/24)
@@ -164,6 +164,7 @@ This update brings previous features from the beta releases with the following i
   - Fixed an issue where UDFPS animation gets stucked after unlocking device (05/06/24)
 
 - **Volume Panel:**
+  - Fixed Volume panel issues (04/13/24)
   - Minor animations adjustments for slider and dialog panel (04/28/24)
 
 - **WiFi Standard:**
