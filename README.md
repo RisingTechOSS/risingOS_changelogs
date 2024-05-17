@@ -1,4 +1,4 @@
-# 🕒 RisingOS Version 3.0 (Janus)
+# 🕒 RisingOS Version 3.1 (Janus)
 
 ## 🏛️ Introduction
 - Embracing the spirit of Janus, the Roman deity of new beginnings, this marks the dawn of a new era.
@@ -27,8 +27,9 @@ This update brings previous features from the 2.0 releases with the following im
 - **Audio Effects [BETA]:**
   - Added Sound Engine QS tile and lockscreen widget toggle (05/06/24)
 
-- **Boost Framework:**
-  - Resolved power regressions (05/12/24)
+- **Backgrounds:**
+  - Added Pixel 9 Series Wallpapers [credits to Kamila Wojciechowska](https://github.com/nullbytepl) (05/21/24)
+  - Added community wallpapers [credits to kxru for the wallpapers] (05/21/24)
 
 - **Dark Theme:**
   - Introducing True Amoled Dark mode - Optimized AMOLED like dark mode (05/09/24)
@@ -36,8 +37,15 @@ This update brings previous features from the 2.0 releases with the following im
 - **Depth Wallpaper:**
   - Introducing Depth Wallpaper feature [credits to Siavash](https://github.com/siavash79) (05/06/24)
 
+- **Display:**
+  - Introducing X-reality display engine (05/21/24)
+
+- **Gestures:**
+  - Added Immersive and back gesture lock (05/20/24)
+
 - **GameSpace:**
   - Fixed FPS meter (05/09/24)
+  - Integrated Immersive lock mode (05/20/24)
 
 - **Healthy Charge:**
   - Introducing Healthy Charge Service (05/09/24) - Get healthy battery charging reminders
@@ -45,31 +53,59 @@ This update brings previous features from the 2.0 releases with the following im
 - **LockScreen Charging Info:**
   - Fixed crashes on some devices when lockscreen info is enabled while charging 05/12/24)
 
+- **LockScreen User Switcher:**
+  - Added toggle for lockscreen user switcher 05/21/24)
+
 - **LockScreen Widgets [BETA]:**
   - Fixed scaling on high dpi devices (05/06/24)
   - Reintroducing IOS inspired clock widget as a lockscreen widget (05/11/24)
+  - Improved media playback detection (05/17/24)
+  - Fixed a certain systemui crash caused by IOS widget (05/17/24)
+
+- **Media output dialog:**
+  - Added playback controls (05/17/24)
 
 - **Ortus Launcher:**
   - Fixed Free memory calculation (05/06/24)
   - Restored homescreen popup legacy order (05/06/24)
   - Updated search bar colors (05/06/24)
   - Added force kill option to system shortcut (05/06/24)
+  - Fixed and improved now playing detection (05/17/24)
 
 - **QuickSettings:**
   - Fixed QuickSettings light theme color and background colors (05/11/24)
   - Revamped landscape quick settings (Enabled Split Shade QuickSettings) (05/12/24)
+  - Added redirect to data usage summary when clicking data usage info (05/20/24)
+
+- **Pixel Launcher:**
+  - Enabled Circle to search feature when GMS spoofing is disabled (05/20/24)
+  - Added more themed icons (05/20/24)
 
 - **Settings:**
   - Added Hidden SSID, Hotspot client manager and AP band controls changes authored by [cjybyjk](https://github.com/cjybyjk/), forward ported by risingOS team (05/06/24)
 
 - **Shake Gestures:**
   - Fixed an issue were devices vibrates when devices shakes (05/12/24)
+  - Added assistant and voice search actions (05/20/24)
+  - Torch and screen on/off now works when screen is off (may increase idle usage) (05/20/24)
+
+- **Three Finger Swipe Gestures:**
+  - Introducing Three Finger Swipe Gestures (05/20/24)
 
 - **UDFPS animations/icons:**
   - Fixed an issue where UDFPS animation gets stucked after unlocking device (05/06/24)
 
 - **Volume Panel:**
   - Fixed Volume panel slider lag/delay issues (05/11/24)
+  - Added option to hide volume row progress percent (05/17/24)
+  - Fixed volume panel on left alignment (05/20/24)
+
+---
+
+## 💬 Highlights (Cherry-Picked Additions)
+
+- **RGB Color balance transform:**
+  - Added RGB Color balance transform by [Danny Lin](https://github.com/kdrag0n/).
 
 ---
 
