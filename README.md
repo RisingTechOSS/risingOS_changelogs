@@ -23,6 +23,8 @@ This update brings previous features from the 2.0 releases with the following im
   - Resolved system haptics vibration issues  (05/11/24)
   - Resolved memory performance regressions (05/11/24)
   - Reduced max allowed background processes (05/11/24)
+  - System theme reloading now shows a toast message (05/22/24)
+  - Fixed User switch timeout issue (05/22/24)
   
 - **Audio Effects [BETA]:**
   - Added Sound Engine QS tile and lockscreen widget toggle (05/06/24)
@@ -76,6 +78,8 @@ This update brings previous features from the 2.0 releases with the following im
   - Fixed QuickSettings light theme color and background colors (05/11/24)
   - Revamped landscape quick settings (Enabled Split Shade QuickSettings) (05/12/24)
   - Added redirect to data usage summary when clicking data usage info (05/20/24)
+  - Added toggle for compact/expanded media player mode (05/22/24)
+  - Resolved potential ui performance regression caused by QS panel vibration haptics (05/22/24)
 
 - **Pixel Launcher:**
   - Enabled Circle to search feature when GMS spoofing is disabled (05/20/24)
@@ -94,6 +98,7 @@ This update brings previous features from the 2.0 releases with the following im
 
 - **UDFPS animations/icons:**
   - Fixed an issue where UDFPS animation gets stucked after unlocking device (05/06/24)
+  - Fixed UDFPS animation location when switching to full device resolution - multi resolution devices only (05/22/24)
 
 - **Volume Panel:**
   - Fixed Volume panel slider lag/delay issues (05/11/24)
