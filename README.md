@@ -25,6 +25,7 @@ This update brings previous features from the 2.0 releases with the following im
   - Reduced max allowed background processes (05/11/24)
   - System theme reloading now shows a toast message (05/22/24)
   - Fixed User switch timeout issue (05/22/24)
+  - Fixed SystemUI crashes introduced by QPR2 (05/25/24)
   
 - **Audio Effects [BETA]:**
   - Added Sound Engine QS tile and lockscreen widget toggle (05/06/24)
@@ -81,6 +82,9 @@ This update brings previous features from the 2.0 releases with the following im
   - Added toggle for compact/expanded media player mode (05/22/24)
   - Resolved potential ui performance regression caused by QS panel vibration haptics (05/22/24)
 
+- **Pixel Framework:**
+  - Added back columbus gestures aka Quick tap feature big thanks to [nivlafx](https://github.com/nivlafx) and [someone5678](https://github.com/someone5678) 
+
 - **Pixel Launcher:**
   - Enabled Circle to search feature when GMS spoofing is disabled (05/20/24)
   - Added more themed icons (05/20/24)
@@ -115,9 +119,6 @@ This update brings previous features from the 2.0 releases with the following im
 ---
 
 ## 👴 Deprecated Features (Removed Features)
-
-- **Columbus/Elmyra:**
-  - Removed due to deprecated dependencies and will be re-introduced once we learn how to regenerate the new java libraries.
 
 - **LockScreen Album Art Filter:**
   - Deprecated as of [QPR2](https://github.com/crdroidandroid/android_frameworks_base/commit/8f922ec2cb649b99b07a90836584702c4f22e0a9). - we will add this back no matter what happens
