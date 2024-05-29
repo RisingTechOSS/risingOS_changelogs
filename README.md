@@ -1,4 +1,4 @@
-# 🕒 RisingOS Version 3.1 (Janus)
+# 🕒 RisingOS Version 3.2 (Janus)
 
 ## 🏛️ Introduction
 - Embracing the spirit of Janus, the Roman deity of new beginnings, this marks the dawn of a new era.
@@ -26,6 +26,8 @@ This update brings previous features from the 2.0 releases with the following im
   - System theme reloading now shows a toast message (05/22/24)
   - Fixed User switch timeout issue (05/22/24)
   - Fixed SystemUI crashes introduced by QPR2 (05/25/24)
+  - Fixed more reported SystemUI crashes introduced by QPR2 (05/29/24)
+  - Fixed app-related blur issues introduced by our glass blur [credits to nift4](https://github.com/nift4) (05/29/24)
   
 - **Audio Effects [BETA]:**
   - Added Sound Engine QS tile and lockscreen widget toggle (05/06/24)
@@ -104,6 +106,9 @@ This update brings previous features from the 2.0 releases with the following im
   - Fixed an issue where UDFPS animation gets stucked after unlocking device (05/06/24)
   - Fixed UDFPS animation location when switching to full device resolution - multi resolution devices only (05/22/24)
 
+- **Updater:**
+  - Added option for importing local updated big thanks to [nivlafx](https://github.com/nivlafx) and [LineageOS](https://github.com/LineageOS) (05/29/24)
+
 - **Volume Panel:**
   - Fixed Volume panel slider lag/delay issues (05/11/24)
   - Added option to hide volume row progress percent (05/17/24)
@@ -116,6 +121,11 @@ This update brings previous features from the 2.0 releases with the following im
 - **RGB Color balance transform:**
   - Added RGB Color balance transform by [Danny Lin](https://github.com/kdrag0n/).
 
+- **Builds Certification:**
+  - None engineering builds are now automatically signed for device integrity [credits to YAAP](https://github.com/yaap/).
+
+- **Fixed High CPU usage:**
+  - Fixed high cpu usage caused by systemui [credits to crDroid Android](https://github.com/crdroidandroid/).
 ---
 
 ## 👴 Deprecated Features (Removed Features)
