@@ -1,137 +1,62 @@
-# 🕒 RisingOS Version 3.2 (Janus)
+# ⛰️ RisingOS Version 4.0 (Kailash)
 
 ## 🏛️ Introduction
-- Embracing the spirit of Janus, the Roman deity of new beginnings, this marks the dawn of a new era.
+- Inspired by the sacred majesty of Mount Kailash, this version embodies our ongoing journey of transformation.
 
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for May 2024.
+- **Android Security:** Stay protected with up-to-date security patches for July 2024.
 ---
 
 ## 💬 Highlights (RisingOS Exclusive Additions)
 
 - For previous changelogs from our initial beta release, please refer to [Beta Release Changelog](https://github.com/RisingTechOSS/risingOS_changelogs/tree/32f1bc41a6a0b7c263b157c68dacd08ce4e768c8).
 - For previous changelogs from 2.0-2.2 release, please refer to [2.0 Series Release Changelog](https://github.com/RisingTechOSS/risingOS_changelogs/tree/ebdf909aff26a0bfe4c0c669b34bdf333ba4e3c9).
+- For previous changelogs from 3.0 release, please refer to [3.0 Series Release Changelog](https://github.com/RisingTechOSS/risingOS_changelogs/tree/032e1bd176f9b3f29d14470b2424fcf22baa0619).
 ---
 
-This update brings previous features from the 2.0 releases with the following improvements:
+This update brings previous features from the previous releases with the following improvements:
 
 - **Framework:**
-  - Optimized low memory killer daemon (05/06/24)
-  - Silenced spammy debugging messages that causes battery drain (05/06/24)
-  - Resolved system haptics vibration issues  (05/11/24)
-  - Resolved memory performance regressions (05/11/24)
-  - Reduced max allowed background processes (05/11/24)
-  - System theme reloading now shows a toast message (05/22/24)
-  - Fixed User switch timeout issue (05/22/24)
-  - Fixed SystemUI crashes introduced by QPR2 (05/25/24)
-  - Fixed more reported SystemUI crashes introduced by QPR2 (05/29/24)
-  - Fixed app-related blur issues introduced by our glass blur [credits to nift4](https://github.com/nift4) (05/29/24)
-  
-- **Audio Effects [BETA]:**
-  - Added Sound Engine QS tile and lockscreen widget toggle (05/06/24)
-
-- **Backgrounds:**
-  - Added Pixel 9 Series Wallpapers [credits to Kamila Wojciechowska](https://github.com/nullbytepl) (05/21/24)
-  - Added community wallpapers [credits to kxru for the wallpapers] (05/21/24)
+  - Resolved memory leaks 
+  - Retuned max cached processes limit based on device ram size
 
 - **Dark Theme:**
-  - Introducing True Amoled Dark mode - Optimized AMOLED like dark mode (05/09/24)
+  - Retuned shade colors
 
 - **Depth Wallpaper:**
-  - Introducing Depth Wallpaper feature [credits to Siavash](https://github.com/siavash79) (05/06/24)
+  - Improved and fixed ui glitches
+
+- **Lockscreen Clocks:**
+  - Added Google clocks back
+  - Optimized custom lockscreen clock styles loading
+
+- **Lockscreen Media art:**
+  - Introducing lockscreen media art feature
+
+- **Lockscreen Widgets:**
+  - Optimized resource usage
 
 - **Display:**
-  - Introducing X-reality display engine (05/21/24)
+  - Introducing Reality display engine 
+    - Introducing vivid mode and x-reality display 
 
-- **Gestures:**
-  - Added Immersive and back gesture lock (05/20/24)
-
-- **GameSpace:**
-  - Fixed FPS meter (05/09/24)
-  - Integrated Immersive lock mode (05/20/24)
-
-- **Healthy Charge:**
-  - Introducing Healthy Charge Service (05/09/24) - Get healthy battery charging reminders
-
-- **LockScreen Charging Info:**
-  - Fixed crashes on some devices when lockscreen info is enabled while charging 05/12/24)
-
-- **LockScreen User Switcher:**
-  - Added toggle for lockscreen user switcher 05/21/24)
-
-- **LockScreen Widgets [BETA]:**
-  - Fixed scaling on high dpi devices (05/06/24)
-  - Reintroducing IOS inspired clock widget as a lockscreen widget (05/11/24)
-  - Improved media playback detection (05/17/24)
-  - Fixed a certain systemui crash caused by IOS widget (05/17/24)
-
-- **Media output dialog:**
-  - Added playback controls (05/17/24)
+- **Haptics:**
+  - Refined volume slider haptics
 
 - **Ortus Launcher:**
-  - Fixed Free memory calculation (05/06/24)
-  - Restored homescreen popup legacy order (05/06/24)
-  - Updated search bar colors (05/06/24)
-  - Added force kill option to system shortcut (05/06/24)
-  - Fixed and improved now playing detection (05/17/24)
-
-- **QuickSettings:**
-  - Fixed QuickSettings light theme color and background colors (05/11/24)
-  - Revamped landscape quick settings (Enabled Split Shade QuickSettings) (05/12/24)
-  - Added redirect to data usage summary when clicking data usage info (05/20/24)
-  - Added toggle for compact/expanded media player mode (05/22/24)
-  - Resolved potential ui performance regression caused by QS panel vibration haptics (05/22/24)
-
-- **Pixel Framework:**
-  - Added back columbus gestures aka Quick tap feature big thanks to [nivlafx](https://github.com/nivlafx) and [someone5678](https://github.com/someone5678) 
-
-- **Pixel Launcher:**
-  - Enabled Circle to search feature when GMS spoofing is disabled (05/20/24)
-  - Added more themed icons (05/20/24)
+  - Revamped themed icons colors
 
 - **Settings:**
-  - Added Hidden SSID, Hotspot client manager and AP band controls changes authored by [cjybyjk](https://github.com/cjybyjk/), forward ported by risingOS team (05/06/24)
+  - Introducing new revamped 4.0 user interface
 
-- **Shake Gestures:**
-  - Fixed an issue were devices vibrates when devices shakes (05/12/24)
-  - Added assistant and voice search actions (05/20/24)
-  - Torch and screen on/off now works when screen is off (may increase idle usage) (05/20/24)
+- **Wifi Standard:**
+  - Fixed crashes and high power usage
 
-- **Three Finger Swipe Gestures:**
-  - Introducing Three Finger Swipe Gestures (05/20/24)
-
-- **UDFPS animations/icons:**
-  - Fixed an issue where UDFPS animation gets stucked after unlocking device (05/06/24)
-  - Fixed UDFPS animation location when switching to full device resolution - multi resolution devices only (05/22/24)
-
-- **Updater:**
-  - Added option for importing local updated big thanks to [nivlafx](https://github.com/nivlafx) and [LineageOS](https://github.com/LineageOS) (05/29/24)
-
-- **Volume Panel:**
-  - Fixed Volume panel slider lag/delay issues (05/11/24)
-  - Added option to hide volume row progress percent (05/17/24)
-  - Fixed volume panel on left alignment (05/20/24)
-
----
-
-## 💬 Highlights (Cherry-Picked Additions)
-
-- **RGB Color balance transform:**
-  - Added RGB Color balance transform by [Danny Lin](https://github.com/kdrag0n/).
-
-- **Builds Certification:**
-  - None engineering builds are now automatically signed for device integrity [credits to YAAP](https://github.com/yaap/).
-
-- **Fixed High CPU usage:**
-  - Fixed high cpu usage caused by systemui [credits to crDroid Android](https://github.com/crdroidandroid/).
 ---
 
 ## 👴 Deprecated Features (Removed Features)
-
-- **LockScreen Album Art Filter:**
-  - Deprecated as of [QPR2](https://github.com/crdroidandroid/android_frameworks_base/commit/8f922ec2cb649b99b07a90836584702c4f22e0a9). - we will add this back no matter what happens
 
 - **Nothing Launcher:**
   - Deprecated as of QPR2 update
