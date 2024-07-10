@@ -21,12 +21,25 @@ This update brings previous features from the previous releases with the followi
 - **Framework:**
   - Resolved memory leaks 
   - Retuned max cached processes limit based on device ram size
+  - Optimized and improved rendering performance
+
+- **Bluetooth:**
+  - Fixed an issue where the volume of Bluetooth devices is set to minimum after connecting.
+
+- **Bootanimation:**
+  - New awesome bootanimation created by sir Ayan
 
 - **Dark Theme:**
   - Retuned shade colors
 
+- **GameSpace:**
+  - Fixed multiple issues
+
 - **Depth Wallpaper:**
   - Improved and fixed ui glitches
+
+- **Hide IME Space:**
+  - Fixed feature not working
 
 - **Lockscreen Clocks:**
   - Added Google clocks back
@@ -48,6 +61,9 @@ This update brings previous features from the previous releases with the followi
 - **Ortus Launcher:**
   - Revamped themed icons colors
 
+- **Pixel framework:**
+  - Resolved booting failures on legacy pixel devices
+
 - **Settings:**
   - Introducing new revamped 4.0 user interface
 
@@ -62,7 +78,7 @@ This update brings previous features from the previous releases with the followi
   - Deprecated as of QPR2 update
 
 - **RisingUI Beta QuickSettings:**
-  - Removed and will be re-introduced as Quicksettings Styles in upcoming releases. - PENDING: difficulty to implement back is high
+  - Removed and will be re-introduced as Quicksettings Styles in upcoming releases. - Completely removed, references were lost after a pc format.
 
 ---
 
