@@ -22,12 +22,24 @@ This update brings previous features from the previous releases with the followi
   - Resolved memory leaks 
   - Retuned max cached processes limit based on device ram size
   - Optimized and improved rendering performance
+  - Resolved crash when less boring headsup is active
+  - Improved audio effects handling
+  - Fixed RCS and integrity spoofing - credits to sir Alvin and chiteroman
+  - Marked SMS premium code 8080 as free in Poland
+  - Fixed wifi soft ap band not being applied
+  - Optimized bitmap shaders
+  
+- **Adaptive sound engine:**
+  - Improved adaptive sound engine loudness, reverb, and compression handling
 
 - **Bluetooth:**
   - Fixed an issue where the volume of Bluetooth devices is set to minimum after connecting.
 
 - **Bootanimation:**
   - New awesome bootanimation created by sir Ayan
+
+- **Charging animation:**
+  - Fixed charging animation being too dark
 
 - **Dark Theme:**
   - Retuned shade colors
@@ -38,18 +50,27 @@ This update brings previous features from the previous releases with the followi
 - **Depth Wallpaper:**
   - Improved and fixed ui glitches
 
+- **Game Space:**
+  - Introducing Quick Start Apps feature - launch apps in multi-window mode while gaming/watching videos
+
 - **Hide IME Space:**
   - Fixed feature not working
 
 - **Lockscreen Clocks:**
   - Added Google clocks back
   - Optimized custom lockscreen clock styles loading
+  - Reduced resource usage
+  - Custom clocks fonts are now changeable (Except for clocks with specific design pattern)
+  - Added weather support for center clock/IDE/OOS styles
+  - Fixed aesthetic clock style reported charging mAh
+  - Added and reworked clock font/style picker
 
 - **Lockscreen Media art:**
   - Introducing lockscreen media art feature
 
 - **Lockscreen Widgets:**
   - Optimized resource usage
+  - Fix preference loading
 
 - **Display:**
   - Introducing Reality display engine 
@@ -57,12 +78,20 @@ This update brings previous features from the previous releases with the followi
 
 - **Haptics:**
   - Refined volume slider haptics
+  - Added options to disable/reduce vibration intensity of QS fling vibration
 
 - **Ortus Launcher:**
+  - Fixed swipe up gestures leading to screen freezing
   - Revamped themed icons colors
 
 - **Pixel framework:**
   - Resolved booting failures on legacy pixel devices
+
+- **QS Styles:**
+  - Fixed QS styles notification background not being rounded
+
+- **QuickSettings:**
+  - Optimize QS album art cover scaling
 
 - **Settings:**
   - Introducing new revamped 4.0 user interface
