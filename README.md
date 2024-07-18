@@ -28,6 +28,7 @@ This update brings previous features from the previous releases with the followi
   - Marked SMS premium code 8080 as free in Poland
   - Fixed wifi soft ap band not being applied
   - Optimized bitmap shaders
+  - Fixed crash when using dismissing split screen pair
   
 - **Adaptive sound engine:**
   - Improved adaptive sound engine loudness, reverb, and compression handling
@@ -89,9 +90,6 @@ This update brings previous features from the previous releases with the followi
 
 - **QS Styles:**
   - Fixed QS styles notification background not being rounded
-
-- **QuickSettings:**
-  - Optimize QS album art cover scaling
 
 - **Settings:**
   - Introducing new revamped 4.0 user interface
