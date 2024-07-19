@@ -1,4 +1,4 @@
-# ⛰️ RisingOS Version 4.0 (Kailash)
+# ⛰️ RisingOS Version 4.1 (Kailash)
 
 ## 🏛️ Introduction
 - Inspired by the sacred majesty of Mount Kailash, this version embodies our ongoing journey of transformation.
@@ -18,6 +18,13 @@
 
 This update brings previous features from the previous releases with the following improvements:
 
+- **Reported issues :**
+  - (4.1) Fixed random reboot when changing screen off animation
+  - (4.1) Fixed flickering on some devices
+  - (4.1) Fixed some telephony crashes on qcom devices
+  - (4.1) Fixed FrameTracker leaks and logspam (cjh1249131356)
+  - (4.1) Freeform/multi-tasking fixes and improvements
+  
 - **Framework:**
   - Resolved memory leaks 
   - Retuned max cached processes limit based on device ram size
@@ -29,6 +36,11 @@ This update brings previous features from the previous releases with the followi
   - Fixed wifi soft ap band not being applied
   - Optimized bitmap shaders
   - Fixed crash when using dismissing split screen pair
+  - (4.1) Optimize file reading operations
+  - (4.1) Optimize and improve font style overriding
+  - (4.1) Android runtime improvements to reduce janks
+  - (4.1) Fixed shared memory and FileUtils memory leaks
+  - (4.1) Fixed systemui crash when casting device to another display 
   
 - **Adaptive sound engine:**
   - Improved adaptive sound engine loudness, reverb, and compression handling
@@ -65,6 +77,7 @@ This update brings previous features from the previous releases with the followi
   - Added weather support for center clock/IDE/OOS styles
   - Fixed aesthetic clock style reported charging mAh
   - Added and reworked clock font/style picker
+  - (4.1) Thicker clock for centered clock style
 
 - **Lockscreen Media art:**
   - Introducing lockscreen media art feature
@@ -88,24 +101,37 @@ This update brings previous features from the previous releases with the followi
 - **Pixel framework:**
   - Resolved booting failures on legacy pixel devices
 
-- **QS Styles:**
-  - Fixed QS styles notification background not being rounded
+- **QuickSettings:**
+  - (4.0) Fixed QS styles notification background not being rounded
+  - (4.1) Introducing QS Widgets - shortcuts and widgets on top of QS tiles
+  - (4.1) Minor UI changes/improvements
+    - A11 Style: Fixed A11 QS panel paddings on notch devices
+    - A11 Style: Increased QS tiles vertical margin
+    - Moved brightness icon to the start of the slider
 
 - **Settings:**
   - Introducing new revamped 4.0 user interface
+
+- **Wallpapers:**
+  - (4.1) Added CMF Phone 1 wallpapers
 
 - **Wifi Standard:**
   - Fixed crashes and high power usage
 
 ---
 
+## 💬 Highlights (Cherry-Picked Additions)
+- **Desktop Mode:**
+  - (4.1) Implemented Desktop mode feature [by LibreMobileOS Project](https://github.com/LMODroid/)
+
+- **Reported Issues:**
+  - (4.1) Fixed booting issues for Pixel 8 Series [credits to ionutgherman](https://github.com/ionutgherman/)
+---
+
 ## 👴 Deprecated Features (Removed Features)
 
 - **Nothing Launcher:**
   - Deprecated as of QPR2 update
-
-- **RisingUI Beta QuickSettings:**
-  - Removed and will be re-introduced as Quicksettings Styles in upcoming releases. - Completely removed, references were lost after a pc format.
 
 ---
 
