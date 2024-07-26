@@ -1,4 +1,4 @@
-# ⛰️ RisingOS Version 4.1 (Kailash)
+# ⛰️ RisingOS Version 4.2 (Kailash)
 
 ## 🏛️ Introduction
 - Inspired by the sacred majesty of Mount Kailash, this version embodies our ongoing journey of transformation.
@@ -10,13 +10,9 @@
 ---
 
 ## 💬 Highlights (RisingOS Exclusive Additions)
-
-- For previous changelogs from our initial beta release, please refer to [Beta Release Changelog](https://github.com/RisingTechOSS/risingOS_changelogs/tree/32f1bc41a6a0b7c263b157c68dacd08ce4e768c8).
-- For previous changelogs from 2.0-2.2 release, please refer to [2.0 Series Release Changelog](https://github.com/RisingTechOSS/risingOS_changelogs/tree/ebdf909aff26a0bfe4c0c669b34bdf333ba4e3c9).
-- For previous changelogs from 3.0 release, please refer to [3.0 Series Release Changelog](https://github.com/RisingTechOSS/risingOS_changelogs/tree/032e1bd176f9b3f29d14470b2424fcf22baa0619).
 ---
 
-This update brings previous features from the previous releases with the following improvements:
+This update brings previous features from the previous releases with the following bug fixes and improvements:
 
 - **Reported issues :**
   - (4.1) Fixed random reboot when changing screen off animation
@@ -24,13 +20,15 @@ This update brings previous features from the previous releases with the followi
   - (4.1) Fixed some telephony crashes on qcom devices
   - (4.1) Fixed FrameTracker leaks and logspam (cjh1249131356)
   - (4.1) Freeform/multi-tasking fixes and improvements
+  - (4.2) Attempt to fix telephony failures on exynos/qcom devices
+  - (4.2) Fixed reported GameSpace crash
+  - (4.2) Fixed three finger swipe gestures scrolling when performing gesture
   
-- **Framework:**
+- **System-wide:**
   - Resolved memory leaks 
   - Retuned max cached processes limit based on device ram size
   - Optimized and improved rendering performance
   - Resolved crash when less boring headsup is active
-  - Improved audio effects handling
   - Fixed RCS and integrity spoofing - credits to sir Alvin and chiteroman
   - Marked SMS premium code 8080 as free in Poland
   - Fixed wifi soft ap band not being applied
@@ -41,9 +39,9 @@ This update brings previous features from the previous releases with the followi
   - (4.1) Android runtime improvements to reduce janks
   - (4.1) Fixed shared memory and FileUtils memory leaks
   - (4.1) Fixed systemui crash when casting device to another display 
-  
-- **Adaptive sound engine:**
-  - Improved adaptive sound engine loudness, reverb, and compression handling
+  - (4.2) Minor swap performance enhancements
+  - (4.2) Resolved regressions that causes QS janks
+  - (4.2) Attempt to reduce audio/media CPU usage 
 
 - **Bluetooth:**
   - Fixed an issue where the volume of Bluetooth devices is set to minimum after connecting.
@@ -57,17 +55,33 @@ This update brings previous features from the previous releases with the followi
 - **Dark Theme:**
   - Retuned shade colors
 
-- **GameSpace:**
-  - Fixed multiple issues
-
 - **Depth Wallpaper:**
   - Improved and fixed ui glitches
 
-- **Game Space:**
+- **Display:**
+  - Introducing Reality display engine 
+    - Introducing vivid mode and x-reality display 
+
+- **GameSpace:**
+  - Fixed multiple issues
   - Introducing Quick Start Apps feature - launch apps in multi-window mode while gaming/watching videos
+
+- **GameProps:**
+  - (4.2) Introducing JSON-based game device spoofing - Spoof any game without restrictions
+
+- **Gesures:**
+  - (4.2) Introducing Three finger long press gestures
+
+- **Haptics:**
+  - Refined volume slider haptics
+  - Added options to disable/reduce vibration intensity of QS fling vibration
+  - (4.2) Refined brightness slider haptics
 
 - **Hide IME Space:**
   - Fixed feature not working
+
+- **Lockscreen AOD image:**
+  - (4.2) Added option to show custom AOD image on top of custom clock
 
 - **Lockscreen Clocks:**
   - Added Google clocks back
@@ -78,6 +92,8 @@ This update brings previous features from the previous releases with the followi
   - Fixed aesthetic clock style reported charging mAh
   - Added and reworked clock font/style picker
   - (4.1) Thicker clock for centered clock style
+  - (4.2) Fixed crash when upgrading from old version (if user is using a removed clock style)
+  - (4.2) Added burn-in protection
 
 - **Lockscreen Media art:**
   - Introducing lockscreen media art feature
@@ -86,20 +102,19 @@ This update brings previous features from the previous releases with the followi
   - Optimized resource usage
   - Fix preference loading
 
-- **Display:**
-  - Introducing Reality display engine 
-    - Introducing vivid mode and x-reality display 
-
-- **Haptics:**
-  - Refined volume slider haptics
-  - Added options to disable/reduce vibration intensity of QS fling vibration
-
 - **Ortus Launcher:**
   - Fixed swipe up gestures leading to screen freezing
   - Revamped themed icons colors
 
 - **Pixel framework:**
   - Resolved booting failures on legacy pixel devices
+
+- **Play Integrity:**
+  - (4.2) Added support to load custom PIF.json for play integrity spoofing
+
+- **Pocket Mode:**
+  - (4.2) Pocket mode is now disabled when device enters Always on Display
+  - (4.2) Pocket mode now blocks shake/swipe gestures and biometrics
 
 - **QuickSettings:**
   - (4.0) Fixed QS styles notification background not being rounded
@@ -108,12 +123,24 @@ This update brings previous features from the previous releases with the followi
     - A11 Style: Fixed A11 QS panel paddings on notch devices
     - A11 Style: Increased QS tiles vertical margin
     - Moved brightness icon to the start of the slider
+  - (4.2) Added option to modify QS panel row count
+  - (4.2) Fixed oversized QS widgets
+  - (4.2) Attempt to fix QS signal icon bug
+  - (4.2) Minor QS animation enhancements
+
+- **QuickSwitch:**
+  - Added Lawnchair support big thanks to ashoss, elpaablo, and sir alvin
 
 - **Settings:**
   - Introducing new revamped 4.0 user interface
 
+- **Sound engine:**
+  - Improved adaptive sound engine loudness, reverb, and compression handling
+  - (4.2) retuned music profile bass, reverb and loudness
+
 - **Wallpapers:**
   - (4.1) Added CMF Phone 1 wallpapers
+  - (4.2) Added Kailash Edition wallpapers
 
 - **Wifi Standard:**
   - Fixed crashes and high power usage
