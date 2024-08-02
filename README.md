@@ -1,158 +1,97 @@
-# ⛰️ RisingOS Version 4.2 (Kailash)
+# 🌊 RisingOS Version 5.0 Open Beta (Lyonesse)
 
 ## 🏛️ Introduction
-- Inspired by the sacred majesty of Mount Kailash, this version embodies our ongoing journey of transformation.
+- Evoking the lost grandeur of the mythical Lyonesse, this release represents a step into the extraordinary. With this version, we delve into new horizons, crafting new experience for everyone.
 
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for July 2024.
+- **Android Security:** Stay protected with up-to-date security patches for August 2024.
 ---
 
 ## 💬 Highlights (RisingOS Exclusive Additions)
 ---
 
 This update brings previous features from the previous releases with the following bug fixes and improvements:
+- **Reported Issues:** 
+  - Fixed crashed when launching Quick Tap open app list
+  - Re-applied scrolling fix for three finger gestures
+  - (OEM) Fixed doze preference theming under display settings [Legendleo90]
+  - (OEM) Attempt to fix random camera crashes on some devices
+  - Fixed extreme battery saver not showing on GAPPS builds
+  - Resolved conflicts with strong integrity bypass modules e.g TrickyStore
+  - Added workaround on broken heads-up notification on landscape (now shows island notification instead of nothing)
+  - Fixed Lorn icon pack signal padding
 
-- **Reported issues :**
-  - (4.1) Fixed random reboot when changing screen off animation
-  - (4.1) Fixed flickering on some devices
-  - (4.1) Fixed some telephony crashes on qcom devices
-  - (4.1) Fixed FrameTracker leaks and logspam (cjh1249131356)
-  - (4.1) Freeform/multi-tasking fixes and improvements
-  - (4.2) Attempt to fix telephony failures on exynos/qcom devices
-  - (4.2) Fixed reported GameSpace crash
-  - (4.2) Fixed three finger swipe gestures scrolling when performing gesture
-  
-- **System-wide:**
-  - Resolved memory leaks 
-  - Retuned max cached processes limit based on device ram size
-  - Optimized and improved rendering performance
-  - Resolved crash when less boring headsup is active
-  - Fixed RCS and integrity spoofing - credits to sir Alvin and chiteroman
-  - Marked SMS premium code 8080 as free in Poland
-  - Fixed wifi soft ap band not being applied
-  - Optimized bitmap shaders
-  - Fixed crash when using dismissing split screen pair
-  - (4.1) Optimize file reading operations
-  - (4.1) Optimize and improve font style overriding
-  - (4.1) Android runtime improvements to reduce janks
-  - (4.1) Fixed shared memory and FileUtils memory leaks
-  - (4.1) Fixed systemui crash when casting device to another display 
-  - (4.2) Minor swap performance enhancements
-  - (4.2) Resolved regressions that causes QS janks
-  - (4.2) Attempt to reduce audio/media CPU usage 
+- **Advanced:** 
+  - Added option to create virtual RAM/swap using adb or root (adb shell ram_boost.sh <size_in_gb> e.g adb shell ram_boost.sh 2 - creates 2gb swap) 
+    - Helpful for legacy devices and does not conflict with ZRAM. Needs to be applied after every reboot.
 
-- **Bluetooth:**
-  - Fixed an issue where the volume of Bluetooth devices is set to minimum after connecting.
+- **Bootanimation Styles:** 
+  - Added option to change bootanimation
 
-- **Bootanimation:**
-  - New awesome bootanimation created by sir Ayan
+- **Black Theme Styles:** 
+  - Added black theme styles with Berry black and true amoled dark as choices
 
-- **Charging animation:**
-  - Fixed charging animation being too dark
+- **Display Engine:** 
+  - Added Triluminous Display mode
+  - Retuned X-reality engine
+  - Reworked previews
 
-- **Dark Theme:**
-  - Retuned shade colors
+- **FaceUnlock:** 
+  - Revamped face unlock indicator to island style
 
-- **Depth Wallpaper:**
-  - Improved and fixed ui glitches
+- **Freeform windows:** 
+  - Improved freeform window resize animation
+  - Fixed freeform minimized button not working
+  - Fixed freeform buttons/bar colors
 
-- **Display:**
-  - Introducing Reality display engine 
-    - Introducing vivid mode and x-reality display 
+- **Island notification:** 
+  - Added swipe to left/right to dismiss gesture
 
-- **GameSpace:**
-  - Fixed multiple issues
-  - Introducing Quick Start Apps feature - launch apps in multi-window mode while gaming/watching videos
+- **Lawnchair:** 
+  - Updated lawnchair to 14.0.0-20240727 [Alvin Francis]
 
-- **GameProps:**
-  - (4.2) Introducing JSON-based game device spoofing - Spoof any game without restrictions
+- **Ortus Launcher:** 
+  - Implemented long press to search (for gestures only)
 
-- **Gesures:**
-  - (4.2) Introducing Three finger long press gestures
-
-- **Haptics:**
-  - Refined volume slider haptics
-  - Added options to disable/reduce vibration intensity of QS fling vibration
-  - (4.2) Refined brightness slider haptics
-
-- **Hide IME Space:**
-  - Fixed feature not working
-
-- **Lockscreen AOD image:**
-  - (4.2) Added option to show custom AOD image on top of custom clock
-
-- **Lockscreen Clocks:**
-  - Added Google clocks back
-  - Optimized custom lockscreen clock styles loading
-  - Reduced resource usage
-  - Custom clocks fonts are now changeable (Except for clocks with specific design pattern)
-  - Added weather support for center clock/IDE/OOS styles
-  - Fixed aesthetic clock style reported charging mAh
-  - Added and reworked clock font/style picker
-  - (4.1) Thicker clock for centered clock style
-  - (4.2) Fixed crash when upgrading from old version (if user is using a removed clock style)
-  - (4.2) Added burn-in protection
-
-- **Lockscreen Media art:**
-  - Introducing lockscreen media art feature
-
-- **Lockscreen Widgets:**
-  - Optimized resource usage
-  - Fix preference loading
-
-- **Ortus Launcher:**
-  - Fixed swipe up gestures leading to screen freezing
-  - Revamped themed icons colors
-
-- **Pixel framework:**
-  - Resolved booting failures on legacy pixel devices
-
-- **Play Integrity:**
-  - (4.2) Added support to load custom PIF.json for play integrity spoofing
-
-- **Pocket Mode:**
-  - (4.2) Pocket mode is now disabled when device enters Always on Display
-  - (4.2) Pocket mode now blocks shake/swipe gestures and biometrics
+- **Power modes:**
+  - Introducing device power modes - control cpu and memory based from profiles
+  - Added QS tile
 
 - **QuickSettings:**
-  - (4.0) Fixed QS styles notification background not being rounded
-  - (4.1) Introducing QS Widgets - shortcuts and widgets on top of QS tiles
-  - (4.1) Minor UI changes/improvements
-    - A11 Style: Fixed A11 QS panel paddings on notch devices
-    - A11 Style: Increased QS tiles vertical margin
-    - Moved brightness icon to the start of the slider
-  - (4.2) Added option to modify QS panel row count
-  - (4.2) Fixed oversized QS widgets
-  - (4.2) Attempt to fix QS signal icon bug
-  - (4.2) Minor QS animation enhancements
+  - Redesigned QS Data Usage UI
 
-- **QuickSwitch:**
-  - Added Lawnchair support big thanks to ashoss, elpaablo, and sir alvin
+- **QS Widgets:**
+  - Replaced tiles with connectivity tiles (wifi, bt, data, airplane mode)
+  - Improved and updated layout
+  - Added support for QS panel styles
+  - Added QS Photo Widget
 
-- **Settings:**
-  - Introducing new revamped 4.0 user interface
+- **RAM Boost:**
+  - Introducing ram boost feature - prioritize utilizing compressed memory (ZRAM) and swap space (if available) to improve overall performance.
 
 - **Sound engine:**
-  - Improved adaptive sound engine loudness, reverb, and compression handling
-  - (4.2) retuned music profile bass, reverb and loudness
+  - Implemented Equal loudness contour logic
 
-- **Wallpapers:**
-  - (4.1) Added CMF Phone 1 wallpapers
-  - (4.2) Added Kailash Edition wallpapers
-
-- **Wifi Standard:**
-  - Fixed crashes and high power usage
+- **Spoofing:**
+  - GameProps -> Per-app spoofing
+  - Added option to directly update Play Integrity Fix properties
+  - Added option to display currently set PIF properties
 
 ---
 
 ## 💬 Highlights (Cherry-Picked Additions)
-- **Desktop Mode:**
-  - (4.1) Implemented Desktop mode feature [by LibreMobileOS Project](https://github.com/LMODroid/)
+- **Added BCR support:**
+  - Added Basic call recording support [Chaitanyakm, James, Andrew Gunnerson]
 
-- **Reported Issues:**
-  - (4.1) Fixed booting issues for Pixel 8 Series [credits to ionutgherman](https://github.com/ionutgherman/)
+- **Power modes:**
+  - Implemented kernel tunings from KTweaks by [tytydraco](https://github.com/tytydraco/)
+  
+- **Security bypass features:**
+  - Hide ADB and developer settings by [someone5678](https://github.com/someone5678/)
+  - Hide Screen capture status from apps by [someone5678](https://github.com/someone5678/)
+  - Storage Access Framework bypass by [rdxzv](https://github.com/rdxzv/)
 ---
 
 ## 👴 Deprecated Features (Removed Features)
@@ -170,7 +109,7 @@ Below is a detailed compilation of all features incorporated into the current re
 Your understanding and appreciation for the creativity and efforts of the original contributors are highly valued. We extend our outmost gratitude and appreciation to all the people listed below for their contributions and efforts to the development of these features 🙏
 
 ---
-- **LineageOS features and customizations:** LineageOS Project
+- **LineageOS features and customizations:** LineageOS and crDroidAndroid Project
 - **Adaptive Playback:** Jyotiraditya, Stylogey
 - **Ai Assistant Shortcut:** Credits to Mishaal Rahman
 - **Always on Display schedule:** idoybh
