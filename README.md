@@ -1,4 +1,4 @@
-# 🌊 RisingOS Version 5.0 Open Beta (Lyonesse)
+# 🌊 RisingOS Version 5.0 (Lyonesse)
 
 ## 🏛️ Introduction
 - Evoking the lost grandeur of the mythical Lyonesse, this release represents a step into the extraordinary. With this version, we delve into new horizons, crafting new experience for everyone.
@@ -22,6 +22,7 @@ This update brings previous features from the previous releases with the followi
   - Resolved conflicts with strong integrity bypass modules e.g TrickyStore
   - Added workaround on broken heads-up notification on landscape (now shows island notification instead of nothing)
   - Fixed Lorn icon pack signal padding
+  - Fixed pinterest/X/google login issues [by neobuddy89](https://github.com/neobuddy89/)
 
 - **Advanced:** 
   - Added option to create virtual RAM/swap using adb or root (adb shell ram_boost.sh <size_in_gb> e.g adb shell ram_boost.sh 2 - creates 2gb swap) 
@@ -29,6 +30,7 @@ This update brings previous features from the previous releases with the followi
 
 - **Bootanimation Styles:** 
   - Added option to change bootanimation
+  - Added an option to import custom bootanimation [by Alvin Francis](https://github.com/nivlafx/)
 
 - **Black Theme Styles:** 
   - Added black theme styles with Berry black and true amoled dark as choices
@@ -50,7 +52,7 @@ This update brings previous features from the previous releases with the followi
   - Added swipe to left/right to dismiss gesture
 
 - **Lawnchair:** 
-  - Updated lawnchair to 14.0.0-20240727 [Alvin Francis]
+  - Updated lawnchair to 14.0.0-20240727 [by Alvin Francis](https://github.com/nivlafx/)
 
 - **Ortus Launcher:** 
   - Implemented long press to search (for gestures only)
@@ -67,9 +69,11 @@ This update brings previous features from the previous releases with the followi
   - Improved and updated layout
   - Added support for QS panel styles
   - Added QS Photo Widget
+  - Fixed paddings for different DPIs
 
 - **RAM Boost:**
   - Introducing ram boost feature - prioritize utilizing compressed memory (ZRAM) and swap space (if available) to improve overall performance.
+  - Improved virtual memory tunings for performance
 
 - **Sound engine:**
   - Implemented Equal loudness contour logic
@@ -78,6 +82,9 @@ This update brings previous features from the previous releases with the followi
   - GameProps -> Per-app spoofing
   - Added option to directly update Play Integrity Fix properties
   - Added option to display currently set PIF properties
+
+- **Toolbox:**
+  - Added backup/restore feature settings [by Alvin Francis](https://github.com/nivlafx/)
 
 ---
 
@@ -92,6 +99,9 @@ This update brings previous features from the previous releases with the followi
   - Hide ADB and developer settings by [someone5678](https://github.com/someone5678/)
   - Hide Screen capture status from apps by [someone5678](https://github.com/someone5678/)
   - Storage Access Framework bypass by [rdxzv](https://github.com/rdxzv/)
+  
+- **Bootloader Spoofing:**
+  - Added option to spoof as locked bootloader when spoofing GMS [by chiteroman](https://github.com/chiteroman/)
 ---
 
 ## 👴 Deprecated Features (Removed Features)
