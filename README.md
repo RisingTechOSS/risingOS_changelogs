@@ -1,4 +1,4 @@
-# 🌊 RisingOS Version 5.0 (Lyonesse)
+# 🌊 RisingOS Version 5.1 (Lyonesse)
 
 ## 🏛️ Introduction
 - Evoking the lost grandeur of the mythical Lyonesse, this release represents a step into the extraordinary. With this version, we delve into new horizons, crafting new experience for everyone.
@@ -14,26 +14,31 @@
 
 This update brings previous features from the previous releases with the following bug fixes and improvements:
 - **Reported Issues:** 
-  - Fixed crashed when launching Quick Tap open app list
-  - Re-applied scrolling fix for three finger gestures
-  - (OEM) Fixed doze preference theming under display settings [Legendleo90]
-  - (OEM) Attempt to fix random camera crashes on some devices
-  - Fixed extreme battery saver not showing on GAPPS builds
-  - Resolved conflicts with strong integrity bypass modules e.g TrickyStore
-  - Added workaround on broken heads-up notification on landscape (now shows island notification instead of nothing)
-  - Fixed Lorn icon pack signal padding
-  - Fixed pinterest/X/google login issues [by neobuddy89](https://github.com/neobuddy89/)
+  - (5.1) Attempt to fix snapchat messaging delays 
+  - (5.1) Fixed swipe gestures multi-touch issues
+  - (5.1) Attempt to fix memory leaks caused by SystemUI theme reevaluations and SystemUI restarts
+  - (5.1) Fixed custom QS Header not working (when selecting custom photo via google photos etc)
+  - (5.1) Fixed swiped island notification blocking input
+  - (5.1) Fixed weather widget redirect
+  - (5.1) Improved multi-tasking by tuning low-memory killer daemon
 
 - **Advanced:** 
   - Added option to create virtual RAM/swap using adb or root (adb shell ram_boost.sh <size_in_gb> e.g adb shell ram_boost.sh 2 - creates 2gb swap) 
     - Helpful for legacy devices and does not conflict with ZRAM. Needs to be applied after every reboot.
 
+- **AOD Image:** 
+  - (5.1) Improved animation and resource usage
+
 - **Bootanimation Styles:** 
   - Added option to change bootanimation
   - Added an option to import custom bootanimation [by Alvin Francis](https://github.com/nivlafx/)
+  - (5.1) Fixed bootanimation styles not working after upgrade
 
 - **Black Theme Styles:** 
   - Added black theme styles with Berry black and true amoled dark as choices
+
+- **Cache Cleaner Service:** 
+  - (5.1) Introducing cache cleaner service
 
 - **Display Engine:** 
   - Added Triluminous Display mode
@@ -50,16 +55,24 @@ This update brings previous features from the previous releases with the followi
 
 - **Island notification:** 
   - Added swipe to left/right to dismiss gesture
+  - (5.1) Fixed island showing when navigating youtube playback
 
 - **Lawnchair:** 
   - Updated lawnchair to 14.0.0-20240727 [by Alvin Francis](https://github.com/nivlafx/)
 
+- **Lockscreen Clocks:** 
+  - (5.1) Fixed crashed when a specific font is applied [by Alvin Francis](https://github.com/nivlafx/)
+
 - **Ortus Launcher:** 
   - Implemented long press to search (for gestures only)
+
+- **Personalizations:**
+  - (5.1) Re-organized theming and toolbox settings
 
 - **Power modes:**
   - Introducing device power modes - control cpu and memory based from profiles
   - Added QS tile
+  - (5.1) Conservative mode: Increased bias to lower frequencies 
 
 - **QuickSettings:**
   - Redesigned QS Data Usage UI
@@ -70,13 +83,24 @@ This update brings previous features from the previous releases with the followi
   - Added support for QS panel styles
   - Added QS Photo Widget
   - Fixed paddings for different DPIs
+  - (5.1) Added long press to open wifi settings for internet tile
 
 - **RAM Boost:**
   - Introducing ram boost feature - prioritize utilizing compressed memory (ZRAM) and swap space (if available) to improve overall performance.
   - Improved virtual memory tunings for performance
 
+- **Settings Styles:** 
+  - (5.1) Added option to toggle device showcase
+
+- **Smart 5G service:**
+  - (5.1) Implemented Smart 5G service - Automatically switch between 5G and 4G to reduce battery consumption [by Adithya R](https://github.com/adithya2306/)
+    - RisingOS Edit: added more functionalities
+
+- **Smart Power-Off Service:** 
+  - (5.1) Smart Power-Off Service - an automated power off service with smart delay mechanism
+
 - **Sound engine:**
-  - Implemented Equal loudness contour logic
+  - (5.1) Removed audio profiles, replaced by adjustable loudness gain/bass boost settings 
 
 - **Spoofing:**
   - GameProps -> Per-app spoofing
@@ -85,6 +109,7 @@ This update brings previous features from the previous releases with the followi
 
 - **Toolbox:**
   - Added backup/restore feature settings [by Alvin Francis](https://github.com/nivlafx/)
+  - (5.1) Added upload and restore from google drive feature [by Alvin Francis](https://github.com/nivlafx/)
 
 ---
 
@@ -102,6 +127,12 @@ This update brings previous features from the previous releases with the followi
   
 - **Bootloader Spoofing:**
   - Added option to spoof as locked bootloader when spoofing GMS [by chiteroman](https://github.com/chiteroman/)
+  
+- **RefreshRate control enhancements:**
+  - (5.1) Improved dynamic refresh rate scheduler [by arter97](https://github.com/arter97/)
+  
+- **Added Conditional LTE_CA toggle:**
+  - (5.1) Added toggle for LTE_CA enablement [by DarkJoker360](https://github.com/DarkJoker360/)
 ---
 
 ## 👴 Deprecated Features (Removed Features)
