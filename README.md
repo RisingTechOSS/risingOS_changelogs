@@ -1,4 +1,4 @@
-# 🌊 RisingOS Version 5.1 (Lyonesse)
+# 🌊 RisingOS Version 5.2 EOL (Lyonesse)
 
 ## 🏛️ Introduction
 - Evoking the lost grandeur of the mythical Lyonesse, this release represents a step into the extraordinary. With this version, we delve into new horizons, crafting new experience for everyone.
@@ -21,6 +21,18 @@ This update brings previous features from the previous releases with the followi
   - (5.1) Fixed swiped island notification blocking input
   - (5.1) Fixed weather widget redirect
   - (5.1) Improved multi-tasking by tuning low-memory killer daemon
+  - (5.2) Fixed status bar notification count not working after a reboot
+  - (5.2) Fixed QuickSettings brightness icon color when using certain icon packs
+  - (5.2) Fixed SmartPower Off Automatically working right after the feature was enabled
+  - (5.2) Fixed realme link sign-in crash
+  - (5.2) Fixed status bar max notification not going above 4
+  - (5.2) Fixed ortus launcher memory leaks caused by QuickSpace
+  - (5.2) Attempt to prevent more possible memory leaks 
+
+- **System-Wide:** 
+  - (5.2) Optimized and fixed layout issues on tablets or high dpi devices (600dp+)
+  - (5.2) Fixed Android System Intelligence crashes on devices with missing mms-sms provider (e.g tablets)
+  - (5.2) Added option to directly modify max cached processes
 
 - **Advanced:** 
   - Added option to create virtual RAM/swap using adb or root (adb shell ram_boost.sh <size_in_gb> e.g adb shell ram_boost.sh 2 - creates 2gb swap) 
@@ -73,6 +85,11 @@ This update brings previous features from the previous releases with the followi
   - Introducing device power modes - control cpu and memory based from profiles
   - Added QS tile
   - (5.1) Conservative mode: Increased bias to lower frequencies 
+  - (5.2) Integrated power modes into memory management
+
+- **Pulse Gestures:** 
+  - (5.2) Single/Double tap to pulse doze
+  - (5.2) Pickup to pulse doze
 
 - **QuickSettings:**
   - Redesigned QS Data Usage UI
@@ -84,6 +101,11 @@ This update brings previous features from the previous releases with the followi
   - Added QS Photo Widget
   - Fixed paddings for different DPIs
   - (5.1) Added long press to open wifi settings for internet tile
+  - (5.2) Fixed visual landscape issues on light mode
+  - (5.2) Fixed widget missing when rotating devices to landscape
+  - (5.2) Fixed media player control buttons positioning
+  - (5.2) Fixed oversize player icon
+  - (5.2) Fixed random crash caused by media player widget
 
 - **RAM Boost:**
   - Introducing ram boost feature - prioritize utilizing compressed memory (ZRAM) and swap space (if available) to improve overall performance.
@@ -100,7 +122,8 @@ This update brings previous features from the previous releases with the followi
   - (5.1) Smart Power-Off Service - an automated power off service with smart delay mechanism
 
 - **Sound engine:**
-  - (5.1) Removed audio profiles, replaced by adjustable loudness gain/bass boost settings 
+  - (5.2) Removed audio profiles, replaced by adjustable loudness gain/bass boost settings (Works with dolby and other sounds mods - Tested on Xiaomi Mi Pad 5 with Moto Dolby)
+  - (5.2) Added surround level settings
 
 - **Spoofing:**
   - GameProps -> Per-app spoofing
@@ -116,6 +139,9 @@ This update brings previous features from the previous releases with the followi
 ## 💬 Highlights (Cherry-Picked Additions)
 - **Added BCR support:**
   - Added Basic call recording support [Chaitanyakm, James, Andrew Gunnerson]
+
+- **GameSpace:**
+  - Improved floating app selection support by [YiQiuYes](https://github.com/YiQiuYes/)
 
 - **Power modes:**
   - Implemented kernel tunings from KTweaks by [tytydraco](https://github.com/tytydraco/)
