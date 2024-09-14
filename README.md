@@ -26,13 +26,13 @@ This update brings previous features from the previous releases with the followi
   - (5.2) Fixed SmartPower Off Automatically working right after the feature was enabled
   - (5.2) Fixed realme link sign-in crash
   - (5.2) Fixed status bar max notification not going above 4
-  - (5.2) Fixed ortus launcher memory leaks caused by QuickSpace
-  - (5.2) Attempt to prevent more possible memory leaks 
+  - (5.2.1) Fixed ortus launcher memory leaks caused by QuickSpace
+  - (5.2.1) Attempt to prevent more possible memory leaks 
 
 - **System-Wide:** 
   - (5.2) Optimized and fixed layout issues on tablets or high dpi devices (600dp+)
   - (5.2) Fixed Android System Intelligence crashes on devices with missing mms-sms provider (e.g tablets)
-  - (5.2) Added option to directly modify max cached processes
+  - (5.2.1) Added option to directly modify max cached processes
 
 - **Advanced:** 
   - Added option to create virtual RAM/swap using adb or root (adb shell ram_boost.sh <size_in_gb> e.g adb shell ram_boost.sh 2 - creates 2gb swap) 
@@ -65,18 +65,22 @@ This update brings previous features from the previous releases with the followi
   - Fixed freeform minimized button not working
   - Fixed freeform buttons/bar colors
 
+- **Healthy Charge:** 
+  - (5.2.1) Implemented Charge hold/pause feature
+
 - **Island notification:** 
   - Added swipe to left/right to dismiss gesture
   - (5.1) Fixed island showing when navigating youtube playback
 
 - **Lawnchair:** 
   - Updated lawnchair to 14.0.0-20240727 [by Alvin Francis](https://github.com/nivlafx/)
+  - (5.2.1) Updated to 14.0.0-20240913 [by donjohanliebert](https://github.com/donjohanliebert/)
 
 - **Lockscreen Clocks:** 
   - (5.1) Fixed crashed when a specific font is applied [by Alvin Francis](https://github.com/nivlafx/)
 
 - **Ortus Launcher:** 
-  - Implemented long press to search (for gestures only)
+  - Implemented long press to search (for gestures only) 
 
 - **Personalizations:**
   - (5.1) Re-organized theming and toolbox settings
@@ -86,6 +90,7 @@ This update brings previous features from the previous releases with the followi
   - Added QS tile
   - (5.1) Conservative mode: Increased bias to lower frequencies 
   - (5.2) Integrated power modes into memory management
+  - (5.2.1) Game boost mode now prioritizes top-app and limits background processes
 
 - **Pulse Gestures:** 
   - (5.2) Single/Double tap to pulse doze
@@ -103,9 +108,9 @@ This update brings previous features from the previous releases with the followi
   - (5.1) Added long press to open wifi settings for internet tile
   - (5.2) Fixed visual landscape issues on light mode
   - (5.2) Fixed widget missing when rotating devices to landscape
-  - (5.2) Fixed media player control buttons positioning
-  - (5.2) Fixed oversize player icon
-  - (5.2) Fixed random crash caused by media player widget
+  - (5.2.1) Fixed media player control buttons positioning
+  - (5.2.1) Fixed oversized player icon
+  - (5.2.1) Fixed random crash caused by media player widget
 
 - **RAM Boost:**
   - Introducing ram boost feature - prioritize utilizing compressed memory (ZRAM) and swap space (if available) to improve overall performance.
@@ -113,6 +118,9 @@ This update brings previous features from the previous releases with the followi
 
 - **Settings Styles:** 
   - (5.1) Added option to toggle device showcase
+  - (5.2) Added toggle for dashboard greetings and user card
+  - (5.2.1) Minor UI enhancements
+  - (5.2.1) Added OOS legacy and colorful (OOS) styles
 
 - **Smart 5G service:**
   - (5.1) Implemented Smart 5G service - Automatically switch between 5G and 4G to reduce battery consumption [by Adithya R](https://github.com/adithya2306/)
@@ -120,6 +128,7 @@ This update brings previous features from the previous releases with the followi
 
 - **Smart Power-Off Service:** 
   - (5.1) Smart Power-Off Service - an automated power off service with smart delay mechanism
+  - (5.2.1) Alarm is now optional
 
 - **Sound engine:**
   - (5.2) Removed audio profiles, replaced by adjustable loudness gain/bass boost settings (Works with dolby and other sounds mods - Tested on Xiaomi Mi Pad 5 with Moto Dolby)
@@ -159,6 +168,9 @@ This update brings previous features from the previous releases with the followi
   
 - **Added Conditional LTE_CA toggle:**
   - (5.1) Added toggle for LTE_CA enablement [by DarkJoker360](https://github.com/DarkJoker360/)
+  
+- **Sleep mode:**
+  - Added sleep mode feature by [Anushek Prasal](https://github.com/SKULSHADY/)
 ---
 
 ## 👴 Deprecated Features (Removed Features)
