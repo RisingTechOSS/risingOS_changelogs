@@ -1,4 +1,4 @@
-# 🌊 RisingOS Version 5.2 EOL (Lyonesse)
+# 🌊 RisingOS Version 5.2.1 EOL (Lyonesse)
 
 ## 🏛️ Introduction
 - Evoking the lost grandeur of the mythical Lyonesse, this release represents a step into the extraordinary. With this version, we delve into new horizons, crafting new experience for everyone.
@@ -6,7 +6,7 @@
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for August 2024.
+- **Android Security:** Stay protected with up-to-date security patches for October 2024.
 ---
 
 ## 💬 Highlights (RisingOS Exclusive Additions)
